@@ -20,6 +20,11 @@ header {
     background-color: blue;
 }
 
+h1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+}
+
 main {
     background-color: red;
     /* Make main content fill entire page */
