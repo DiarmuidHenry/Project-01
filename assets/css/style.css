@@ -8,12 +8,22 @@
     box-sizing: border-box;
 }
 
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
 header {
     background-color: blue;
 }
 
 main {
     background-color: red;
+    /* Make main content fill entire page */
+    flex: 1 0 auto;
 }
 
 footer {
