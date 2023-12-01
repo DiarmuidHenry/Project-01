@@ -17,7 +17,11 @@ body {
 }
 
 header {
-    background-color: blue;
+    background-color: #fce3de;
+    padding: 0 1rem;
+    z-index: 10;
+    width: 100%;
+    box-shadow: 0 2px 1px #f8a799 /* #ffd4cc */ ;
 }
 
 h1 {
