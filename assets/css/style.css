@@ -36,6 +36,21 @@ h1 {
     color: #ffffff;
 }
 
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+    list-style-type: none;
+    color: #ffffff;
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 3px solid #ffffff;
+}
+
 main {
     background-color: red;
     /* Make main content fill entire page */
@@ -45,3 +60,4 @@ main {
 footer {
     background-color: yellow;
 }
+
