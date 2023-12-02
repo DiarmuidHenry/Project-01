@@ -19,6 +19,7 @@ body {
 header {
     background-color: #fcd5ce;
     padding: 0 1rem;
+    position: fixed;
     z-index: 10;
     width: 100%;
     box-shadow: 0 2px 1px #f8a799 /* #ffd4cc */ ;
@@ -52,6 +53,8 @@ h1 {
     font-weight: 800;
     font-size: 130%;
 }
+
+ 
 
 main {
     background-color: red;
