@@ -33,6 +33,10 @@ header a {
     color: inherit;
 }
 
+#logo {
+    font-size: 6vw;
+}
+
 h1 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
@@ -86,10 +90,39 @@ main {
     background-color: red;
     /* Make main content fill entire page */
     flex: 1 0 auto;
-    margin-top: 105px;
+    margin-top: 67px;
 }
 
 footer {
     background-color: yellow;
 }
 
+/* media queries for tablets (768px) and larger screens */
+@media screen and (min-width: 768px) {
+    /* Header/navbar */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        align-items:center;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1.5rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 3.5vw;
+    }
+
+}
