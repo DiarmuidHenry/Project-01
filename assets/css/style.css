@@ -86,6 +86,7 @@ main {
     background-color: red;
     /* Make main content fill entire page */
     flex: 1 0 auto;
+    margin-top: 105px;
 }
 
 footer {
