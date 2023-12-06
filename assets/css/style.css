@@ -138,3 +138,18 @@ footer {
     }
 
 }
+
+/* media queries for tablets (768px) and larger screens */
+@media screen and (min-width: 992px) {
+    
+    /* Adding underline to page navigation */
+    #menu a:hover{
+        border-bottom: 2px solid #ffffff;
+    }
+
+    /* Removing underline from current/active page, to reinforce it is the current page */
+    #menu .active:hover {
+        border-bottom: none;
+    }
+
+}
