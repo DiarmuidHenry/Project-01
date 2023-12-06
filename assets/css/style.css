@@ -109,8 +109,8 @@ main {
 }
 
 #so-me i {
-    font-size: 200%;
-    padding: 10%;
+    font-size: 120%;
+    padding: 0;
     color: #ffffff
 }
 
@@ -152,6 +152,10 @@ main {
     main {
         margin-top: 124px;
     }
+
+    #so-me i {
+    font-size: 200%;
+    padding: 10%;
 
 }
 
