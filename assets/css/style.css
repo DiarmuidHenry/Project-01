@@ -34,7 +34,8 @@ header a {
 }
 
 #logo {
-    font-size: 6vw;
+    font-size: 8vw;
+    text-align: center;
 }
 
 h1 {
@@ -83,14 +84,14 @@ h1 {
 }
 
 .nav-toggle-label {
-    font-size: 3rem;
+    font-size: 1rem;
 }
 
 main {
     background-color: red;
     /* Make main content fill entire page */
     flex: 1 0 auto;
-    margin-top: 67px;
+    margin-top: 64px;
 }
 
 footer {
@@ -104,9 +105,6 @@ footer {
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-        align-items:center;
     }
 
     #menu {
@@ -114,7 +112,9 @@ footer {
     }
 
     #menu > li {
-        padding-left: 1.5rem;
+        padding-left: 2.5rem;
+        text-align: center;
+        flex: 1 0 auto;
     }
 
     .nav-toggle-label {
@@ -122,7 +122,14 @@ footer {
     }
 
     #logo {
-        font-size: 3.5vw;
+        font-size: 5vw;
+        text-align: center;
+        padding: 1rem 0;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
     }
 
 }
