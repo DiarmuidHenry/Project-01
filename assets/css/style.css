@@ -24,8 +24,9 @@ header {
     width: 100%;
     box-shadow: 0 2px 1px #f8a799 /* #ffd4cc */ ;
     display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    flex-direction: row;
+        justify-content: center;
+        align-items: center;
 }
 
 header a {
@@ -34,8 +35,9 @@ header a {
 }
 
 #logo {
-    font-size: 8vw;
+    font-size: 125%;
     text-align: center;
+    padding: 0.75rem 0;
 }
 
 h1 {
@@ -85,13 +87,16 @@ h1 {
 
 .nav-toggle-label {
     font-size: 1rem;
+    position: absolute;
+    top: 15px;
+    right: 16px;
 }
 
 main {
     background-color: red;
     /* Make main content fill entire page */
     flex: 1 0 auto;
-    margin-top: 64px;
+    margin-top: 52px;
 }
 
 footer {
@@ -141,7 +146,7 @@ footer {
 
 /* media queries for tablets (768px) and larger screens */
 @media screen and (min-width: 992px) {
-    
+
     /* Adding underline to page navigation */
     #menu a:hover{
         border-bottom: 2px solid #ffffff;
