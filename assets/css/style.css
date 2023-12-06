@@ -99,8 +99,19 @@ main {
     margin-top: 52px;
 }
 
-footer {
-    background-color: yellow;
+#so-me {
+    background-color: #fcd5ce;
+    text-align: center;
+    padding: 22px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#so-me i {
+    font-size: 200%;
+    padding: 10%;
+    color: #ffffff
 }
 
 /* media queries for tablets (768px) and larger screens */
