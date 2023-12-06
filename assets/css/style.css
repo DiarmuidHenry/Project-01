@@ -16,6 +16,13 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+h1, h2 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
 header {
     background-color: #fcd5ce;
     padding: 0 1rem;
@@ -38,13 +45,6 @@ header a {
     font-size: 125%;
     text-align: center;
     padding: 0.75rem 0;
-}
-
-h1 {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    color: #ffffff;
 }
 
 #menu {
@@ -103,9 +103,28 @@ main {
 /* Hero section styling */
 
 #hero {
-    height: 500px;
+    height: 450px;
     width: 100%;
     background: url("../images/hero.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    color: #f8a799;
+    font-size: 2.8vw;
+    font-style: italic;
+    position: absolute;
+    width: 80%;
+    top: 25%;
+    left: 10%;
+}
+
+#hero-quote-line-1 {
+    text-align: left;
+}
+
+#hero-quote-line-2 {
+    text-align: right;
 }
 
 #so-me {
@@ -139,6 +158,13 @@ main {
     #menu {
         font-size: 95%;
     }
+
+    #cover-text {
+        width: 90%;
+        left: 5%;
+        }
+
+    
 }
 
 /* media queries for tablets (768px) and larger screens */
@@ -183,6 +209,12 @@ main {
     #so-me i {
     font-size: 200%;
     padding: 10%;
+    }
+    #cover-text {
+        font-size: 2.5vw;
+        width: 70%;
+        left: 15%;
+     }
 
 }
 
