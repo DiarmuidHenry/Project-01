@@ -25,8 +25,8 @@ header {
     box-shadow: 0 2px 1px #f8a799 /* #ffd4cc */ ;
     display: flex;
     flex-direction: row;
-        justify-content: center;
-        align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 header a {
@@ -86,10 +86,11 @@ h1 {
 }
 
 .nav-toggle-label {
-    font-size: 1rem;
+    font-size: 1.8rem;
     position: absolute;
-    top: 15px;
-    right: 16px;
+    top: 8px;
+    right: 15px;
+    color: #ffffff;
 }
 
 main {
@@ -112,6 +113,24 @@ main {
     font-size: 120%;
     padding: 0;
     color: #ffffff
+}
+
+/* media queries for very small mobiles, to stop overlapping in header */
+@media screen and (max-width: 350px) {
+    #logo {
+        font-size: 105%;
+    }
+
+    .nav-toggle-label {
+        font-size: 1.5rem;
+    }
+
+    main {
+        margin-top: 48px;
+    }
+    #menu {
+        font-size: 95%;
+    }
 }
 
 /* media queries for tablets (768px) and larger screens */
