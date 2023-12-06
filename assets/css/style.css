@@ -94,7 +94,7 @@ h1 {
 }
 
 main {
-    background-color: red;
+    background-color: #fef2f0;
     /* Make main content fill entire page */
     flex: 1 0 auto;
     margin-top: 52px;
