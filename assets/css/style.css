@@ -65,7 +65,7 @@ header a {
 }
 
 /* Navbar styling*/
- nav {
+nav {
     position: absolute;
     background-color: #fcd5ce;
     width: 100%;
@@ -74,12 +74,12 @@ header a {
     box-shadow: 0 2px 1px #f8a799 /* #ffd4cc */;
     display: none;
     top: 100%;
- }
+}
 
- /* nav toggle */
- #nav-toggle:checked~nav {
+/* nav toggle */
+#nav-toggle:checked~nav {
     display: block;
- }
+}
 
 #nav-toggle {
     display: none;
@@ -144,7 +144,7 @@ img {
     margin: 10px auto;
 }
 
-#homepage-content h2 {
+#homepage-content h2, h3 {
     color: #f8a799;
     text-align: center;
     margin: 10px auto;
