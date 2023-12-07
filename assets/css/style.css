@@ -150,6 +150,26 @@ img {
     margin: 10px auto;
 }
 
+#opening-hours {
+    display: flex;
+}
+
+#opening-hours-left {
+    text-align: right;
+    flex: 5;
+}
+
+#opening-hours-middle {
+    width: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+#opening-hours-right {
+    text-align: left;
+    flex: 5;
+}
+
 #so-me {
     background-color: #fcd5ce;
     text-align: center;
