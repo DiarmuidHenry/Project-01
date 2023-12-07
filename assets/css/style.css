@@ -155,6 +155,15 @@ img {
     margin: 0 0 20px 0;
 }
 
+#contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#contact a:hover {
+    border-bottom: 2px solid #000000;
+}
+
 #opening-hours {
     display: flex;
     margin: 10px 0;
