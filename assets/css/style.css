@@ -341,12 +341,18 @@ button:hover {
 
     #menu {
         display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #menu>li {
-        padding: 0 2.5rem;
+        display: flex;
+        padding: 0;
         text-align: center;
         flex: 1 0 auto;
+        margin: 0.25em 0;
+        align-items: center;
+        justify-content: center;
     }
 
     .nav-toggle-label {
