@@ -34,38 +34,34 @@
     </header>
 
     <main>
+        <div id="bookings-text">
 
-        <form action="https://formdump.codeinstitute.net/" method="post">
+        </div>
+        <div id="bookings-form-div">
+        <form id="bookings-form" action="https://formdump.codeinstitute.net/" method="post">
             <!-- First Name -->
-            <label for="first-name">First Name :</label>
+            <label for="first-name">First Name</label>
             <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
-        
             <!-- Surname -->
-            <label for="surname">Surname :</label>
+            <label for="surname">Surname</label>
             <input type="text" id="surname" name="surname" placeholder="Surname" required>
-        
             <!-- Phone Number -->
-            <label for="phone-number">Phone Number :</label>
+            <label for="phone-number">Phone Number</label>
             <input type="text" id="phone-number" name="phone-number" placeholder="Phone Number" required>
-        
             <!-- Email Address -->
-            <label for="email">Email Address :</label>
+            <label for="email">Email Address</label>
             <input type="email" id="email" name="email" placeholder="Email Address" required>
-        
             <!-- Preferred method of contact -->
-            <label>Preferred method of contact :</label>
+            <label>Preferred contact</label>
+            <label id="phone-label" for="contact-phone">Phone</label>
             <input type="radio" id="contact-phone" name="contact-method" value="Phone" required>
-            <label for="contact-phone">Phone</label>
+            <label id="email-label" for="contact-email">Email</label>
             <input type="radio" id="contact-email" name="contact-method" value="Email" required>
-            <label for="contact-email">Email</label>
-        
             <!-- Date of Appointment -->
-            <label for="appointment-date">Date of Appointment :</label>
+            <label id="appointment-date-label" for="appointment-date">Date of Appointment</label>
             <input type="date" id="appointment-date" name="appointment-date" required>
-            
-            
             <!-- Time of Appointment -->
-            <label for="appointment-time">Time of Appointment :</label>
+            <label id="appointment-time-label" or="appointment-time">Time of Appointment</label>
             <select name="appointment-time" id="appointment-time">
                 <option value="08:00">08:00</option>
                 <option value="08:30">08:30</option>
@@ -84,15 +80,18 @@
                 <option value="15:00">15:00</option>
                 <option value="15:30">15:30</option>
             </select>
-            
             <!-- Message -->
-            <label for="message">Message :</label>
+            <label id="message-label" for="message">Message</label>
             <textarea id="message" name="message" placeholder="Please include any information releveant to your booking here" rows="8"></textarea>
-        
+            <div id="space-before-button"></div>
             <!-- Submit Button -->
             <button type="submit">Submit</button>
         </form>
+        </div>
     </main>
+
+
+
 
     <footer>
         <ul id="so-me">

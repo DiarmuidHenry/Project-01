@@ -209,7 +209,97 @@ h3 {
     padding: 0;
     color: #ffffff
 }
+#bookings-form-div {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+#bookings-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#bookings-form label:not(#phone-label,
+    #email-label, #appointment-date-label,
+    #appointment-time-label, #message-label) {
+    display: block;
+    margin-bottom: 8px;
+    width: 50%;
+    text-align: right;
+}
+
+#phone-label,
+#email-label {
+    display: block;
+    margin-bottom: 8px;
+    width: 21%;
+    text-align: right;
+}
+
+#appointment-date-label,
+#appointment-time-label {
+    display: block;
+    margin-bottom: 8px;
+    width: 70%;
+    text-align: right;
+}
+
+#message-label,
+#space-before-button {
+    display: block;
+    margin-bottom: 8px;
+    width: 40%;
+    text-align: right;
+    margin: 0;
+}
+
+#bookings-form label:after {
+    content: " :";
+    margin-right: 5px;
+}
+
+input,
+textarea {
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+select {
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 12px;
+}
+
+#message {
+    width: 60%;
+}
+
+input[type="radio"] {
+    width: 4%;
+}
+
+input[type="date"] {
+    width: 30%;
+}
+
+button {
+    background-color: #f8a799;
+    color: #ffffff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #f8a799;
+    font-weight: 800;
+}
 /* media queries for very small mobiles, to stop overlapping in header */
 @media screen and (max-width: 350px) {
     #logo {
@@ -231,6 +321,10 @@ h3 {
     #cover-text {
         width: 90%;
         left: 5%;
+    }
+
+    #bookings-form-div {
+        font-size: 85%;
     }
 }
 
