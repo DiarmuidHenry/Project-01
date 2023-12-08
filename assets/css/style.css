@@ -137,7 +137,7 @@ main {
     width: 80%;
 }
 
-p {
+.page-content p {
     margin: 10px auto;
 }
 
@@ -165,12 +165,13 @@ h3 {
     margin: 0 0 20px 0;
 }
 
-#contact a {
+.page-content a {
     text-decoration: none;
     color: inherit;
+    font-weight: 600;
 }
 
-#contact a:hover {
+.page-content a:hover {
     border-bottom: 2px solid #000000;
 }
 
@@ -384,7 +385,7 @@ button:hover {
         width: 47%;
     }
 
-    #about-us-image-div {
+    .homepage-image-div {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -409,11 +410,6 @@ button:hover {
         width: 47%;
     }
 
-    #our-goals-image-div {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
     #our-goals-image {
         height: 90%;
