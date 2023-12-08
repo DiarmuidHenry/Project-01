@@ -16,7 +16,8 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -29,7 +30,9 @@ header {
     position: fixed;
     z-index: 10;
     width: 100%;
-    box-shadow: 0 2px 1px #f8a799 /* #ffd4cc */ ;
+    box-shadow: 0 2px 1px #f8a799
+        /* #ffd4cc */
+    ;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -54,7 +57,7 @@ header a {
     color: #ffffff;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 0.5em;
 }
 
@@ -71,7 +74,9 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1.5rem;
-    box-shadow: 0 2px 1px #f8a799 /* #ffd4cc */;
+    box-shadow: 0 2px 1px #f8a799
+        /* #ffd4cc */
+    ;
     display: none;
     top: 100%;
 }
@@ -144,7 +149,8 @@ img {
     margin: 10px auto;
 }
 
-#homepage-content h2, h3 {
+#homepage-content h2,
+h3 {
     color: #f8a799;
     text-align: center;
     margin: 20px auto;
@@ -217,6 +223,7 @@ img {
     main {
         margin-top: 48px;
     }
+
     #menu {
         font-size: 95%;
     }
@@ -224,11 +231,12 @@ img {
     #cover-text {
         width: 90%;
         left: 5%;
-        }
+    }
 }
 
 /* media queries for tablets (768px) and larger screens */
 @media screen and (min-width: 768px) {
+
     /* Header/navbar */
     nav {
         display: block;
@@ -240,7 +248,7 @@ img {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding: 0 2.5rem;
         text-align: center;
         flex: 1 0 auto;
@@ -271,18 +279,50 @@ img {
         justify-content: space-between;
     }
 
-    #about-us > div {
-        width: 37%;
+    #about-us>div {
+        width: 47%;
     }
 
-    img {
+    #about-us-image-div {
+        display: flex;
         align-items: center;
         justify-content: center;
     }
 
+    #about-us-image {
+        height: 90%;
+        object-position: 80% 40%;
+        margin-bottom: 0;
+    }
+
+    #our-goals {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #our-goals {
+        flex-direction: row-reverse;
+    }
+
+    #our-goals > div {
+        width: 47%;
+    }
+
+    #our-goals-image-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #our-goals-image {
+        height: 90%;
+        object-position: 30% 0;
+        margin-bottom: 0;
+    }
+
     #so-me i {
-    font-size: 200%;
-    padding: 10%;
+        font-size: 200%;
+        padding: 10%;
     }
 
     #cover-text {
@@ -301,7 +341,7 @@ img {
 @media screen and (min-width: 992px) {
 
     /* Adding underline to page navigation */
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 2px solid #ffffff;
     }
 
