@@ -16,8 +16,7 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -149,8 +148,7 @@ img {
     margin: 10px auto;
 }
 
-.page-content h2,
-h3 {
+.page-content h2, h3 {
     color: #f8a799;
     text-align: center;
     margin: 20px auto;
@@ -158,6 +156,15 @@ h3 {
 
 #contact {
     font-size: 110%;
+}
+
+#location-map {
+    width: 100%;
+    border: 0;
+    margin: 10px auto 20px auto;
+    border-radius: 4px;
+    height: 50vw;
+                        
 }
 
 #contact-info {
@@ -168,7 +175,8 @@ h3 {
 .page-content a {
     text-decoration: none;
     color: inherit;
-    font-weight: 600;
+    font-size: 110%;
+    font-weight: 700;
 }
 
 .page-content a:hover {
@@ -182,21 +190,16 @@ h3 {
 
 #opening-hours-left {
     text-align: right;
-    flex: 5;
-}
-
-#opening-hours-middle {
-    width: 20px;
-    text-align: center;
-    justify-content: center;
+    flex-basis: 50%;
 }
 
 #opening-hours-right {
     text-align: left;
-    flex: 5;
+    flex-basis: 50%;
+    padding-left: 5px;
 }
 
-#so-me {
+.so-me {
     background-color: #fcd5ce;
     text-align: center;
     padding: 22px 30px;
@@ -205,18 +208,22 @@ h3 {
     list-style-type: none;
 }
 
-#so-me i {
-    font-size: 120%;
+#so-me-large-screen > .so-me {
+    background-color: #fef2f0;
+}
+
+.so-me i {
+    font-size: 160%;
     padding: 0;
     color: #ffffff
 }
 
-.bookings .page-content > div {
-    width: 100%;
-    margin: 0 auto 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+#so-me-large-screen {
+    display: none;
+}
+
+#so-me-large-screen a:hover {
+    border-bottom: none;
 }
 
 #bookings-form {
@@ -302,6 +309,11 @@ button:hover {
     color: #f8a799;
     font-weight: 800;
 }
+
+#bookings-info {
+    margin: 30px 0;
+}
+
 /* media queries for very small mobiles, to stop overlapping in header */
 @media screen and (max-width: 350px) {
     #logo {
@@ -410,17 +422,43 @@ button:hover {
         width: 47%;
     }
 
-
     #our-goals-image {
         height: 90%;
         object-position: 30% 0;
         margin-bottom: 0;
     }
 
-    #so-me i {
+    #contact-text {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    #contact-text > div {
+        width: 48%;
+        font-size: 110%;
+    }
+
+    #location-map {
+        height: 40vw;
+        max-height: 400px;
+    }
+
+    #so-me-large-screen {
+        display: unset;
+    }
+
+    #so-me-large-screen i {
+        font-size: 250%;
+        color: #f8a799;
+    }
+
+    .so-me i {
         font-size: 200%;
         padding: 10%;
     }
+
 
     #cover-text {
         font-size: 2.5vw;
@@ -434,7 +472,7 @@ button:hover {
 
 }
 
-/* media queries for tablets (768px) and larger screens */
+/* media queries for desktop (992px) and larger screens */
 @media screen and (min-width: 992px) {
 
     /* Adding underline to page navigation */
@@ -446,5 +484,97 @@ button:hover {
     #menu .active:hover {
         border-bottom: none;
     }
+
+    .page-content > section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #about-us>div, #our-goals>div {
+        width: 44%;
+    }
+
+    .treatments .page-content {
+        width: 70%;
+    }
+
+    .treatments .page-content section div {
+        margin: 30px 0;
+    }
+
+    .treatments-image img {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .bookings .page-content >div  {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #bookings-info {
+        width: 38%;
+    }
+
+    #bookings-form-div {
+        width: 60%;
+    }
+
+    #bookings-form label:not(#phone-label,
+    #email-label, #appointment-date-label,
+    #appointment-time-label, #message-label) {
+        width: 30%
+    }
+    
+    
+        #appointment-date-label,
+        #appointment-time-label {
+            display: block;
+            margin-bottom: 8px;
+            width: 50%;
+            text-align: right;
+        }
+    
+        #message-label,
+        #space-before-button {
+            display: block;
+            margin-bottom: 8px;
+            width: 20%;
+            text-align: right;
+            margin: 0;
+        }
+    
+        #bookings-form label:after {
+            content: " :";
+            margin-right: 5px;
+        }
+    
+        input,
+        textarea {
+            width: 70%;
+            box-sizing: border-box;
+            margin-bottom: 12px;
+        }
+    
+        select {
+            width: 50%;
+            box-sizing: border-box;
+            margin-bottom: 12px;
+        }
+    
+        #message {
+            width: 80%;
+        }
+    
+        input[type="radio"] {
+            width: 4%;
+        }
+    
+        input[type="date"] {
+            width: 50%;
+        }
+
+    
 
 }
