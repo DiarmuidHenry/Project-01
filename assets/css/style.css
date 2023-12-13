@@ -24,14 +24,12 @@ h1, h2 {
 }
 
 header {
-    background-color: #fcd5ce;
+    background-color: #f8ad9d;
     padding: 0 1rem;
     position: fixed;
     z-index: 10;
     width: 100%;
-    box-shadow: 0 2px 1px #f8a799
-        /* #ffd4cc */
-    ;
+    box-shadow: 0 2px 1px #f08080;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,13 +67,11 @@ header a {
 /* Navbar styling*/
 nav {
     position: absolute;
-    background-color: #fcd5ce;
+    background-color: #f8ad9d;
     width: 100%;
     left: 0;
     padding: 0 1.5rem;
-    box-shadow: 0 2px 1px #f8a799
-        /* #ffd4cc */
-    ;
+    box-shadow: 0 2px 1px #f08080;
     display: none;
     top: 100%;
 }
@@ -114,13 +110,13 @@ main {
 }
 
 #cover-text {
-    color: #f8a799;
+    color: #f08080;
     font-size: 2.8vw;
     font-style: italic;
     position: absolute;
-    width: 80%;
-    top: 25%;
-    left: 10%;
+    width: 85%;
+    top: 30%;
+    left: 7.5%;
 }
 
 #hero-quote-line-1 {
@@ -148,10 +144,16 @@ img {
     margin: 10px auto;
 }
 
-.page-content h2, h3 {
-    color: #f8a799;
+.page-content h2 {
+    color: #f08080;
     text-align: center;
     margin: 20px auto;
+}
+
+.page-content h3 {
+    color: #f08080;
+    text-align: center;
+    margin: 0px auto;
 }
 
 #contact {
@@ -161,10 +163,9 @@ img {
 #location-map {
     width: 100%;
     border: 0;
-    margin: 10px auto 20px auto;
+    margin: 10px auto 50px auto;
     border-radius: 4px;
-    height: 50vw;
-                        
+    height: 50vw;        
 }
 
 #contact-info {
@@ -181,6 +182,13 @@ img {
 
 .page-content a:hover {
     border-bottom: 2px solid #000000;
+}
+
+#location-map-and-so-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
 }
 
 #opening-hours {
@@ -200,7 +208,7 @@ img {
 }
 
 .so-me {
-    background-color: #fcd5ce;
+    background-color: #f8ad9d;
     text-align: center;
     padding: 22px 30px;
     display: flex;
@@ -296,7 +304,7 @@ input[type="date"] {
 }
 
 button {
-    background-color: #f8a799;
+    background-color: #f08080;
     color: #ffffff;
     padding: 8px 12px;
     border: none;
@@ -306,7 +314,7 @@ button {
 
 button:hover {
     background-color: #ffffff;
-    color: #f8a799;
+    color: #f08080;
     font-weight: 800;
 }
 
@@ -432,7 +440,6 @@ button:hover {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
 
     #contact-text > div {
@@ -451,12 +458,17 @@ button:hover {
 
     #so-me-large-screen i {
         font-size: 250%;
-        color: #f8a799;
+        color: #f08080;
     }
 
     .so-me i {
         font-size: 200%;
         padding: 10%;
+    }
+
+    #exercises-at-home-links {
+        width: 80%;
+        margin: auto;
     }
 
 
@@ -469,7 +481,6 @@ button:hover {
     #footer-home {
         display: none;
     }
-
 }
 
 /* media queries for desktop (992px) and larger screens */
@@ -528,53 +539,50 @@ button:hover {
     }
     
     
-        #appointment-date-label,
-        #appointment-time-label {
-            display: block;
-            margin-bottom: 8px;
-            width: 50%;
-            text-align: right;
-        }
+    #appointment-date-label,
+    #appointment-time-label {
+        display: block;
+        margin-bottom: 8px;
+        width: 50%;
+        text-align: right;
+    }
     
-        #message-label,
-        #space-before-button {
-            display: block;
-            margin-bottom: 8px;
-            width: 20%;
-            text-align: right;
-            margin: 0;
-        }
+    #message-label,
+    #space-before-button {
+        display: block;
+        margin-bottom: 8px;
+        width: 20%;
+        text-align: right;
+        margin: 0;
+    }
     
-        #bookings-form label:after {
-            content: " :";
-            margin-right: 5px;
-        }
+    #bookings-form label:after {
+        content: " :";
+        margin-right: 5px;
+    }
     
-        input,
-        textarea {
-            width: 70%;
-            box-sizing: border-box;
-            margin-bottom: 12px;
-        }
+    input,
+    textarea {
+        width: 70%;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
     
-        select {
-            width: 50%;
-            box-sizing: border-box;
-            margin-bottom: 12px;
-        }
+    select {
+        width: 50%;
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
     
-        #message {
-            width: 80%;
-        }
+    #message {
+        width: 80%;
+    }
     
-        input[type="radio"] {
-            width: 4%;
-        }
+    input[type="radio"] {
+        width: 4%;
+    }
     
-        input[type="date"] {
-            width: 50%;
-        }
-
-    
-
+    input[type="date"] {
+        width: 50%;
+    }
 }

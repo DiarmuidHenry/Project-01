@@ -1,14 +1,14 @@
-# Collooney Physiotherapy Website - PP1<! -- omit from toc -->
+# Collooney Physiotherapy Website - PP1 <! -- omit in toc -->
 
 This project is a website for a (currently) fictional physiotherapy clinic 
 based in Collooney, Sligo.
 
 [Deployed Website](https://diarmuidhenry.github.io/Project-01/)
 
-## Table of Contents<! -- omit from toc -->
+## Table of Contents <! -- omit in toc -->
 
-- [Collooney Physiotherapy Website - PP1\<! -- omit from toc --\>](#collooney-physiotherapy-website---pp1----omit-from-toc---)
-  - [Table of Contents\<! -- omit from toc --\>](#table-of-contents----omit-from-toc---)
+- [Collooney Physiotherapy Website - PP1 \<! -- omit in toc --\>](#collooney-physiotherapy-website---pp1-----omit-in-toc---)
+  - [Table of Contents \<! -- omit in toc --\>](#table-of-contents-----omit-in-toc---)
   - [Aim](#aim)
     - [Website Objective](#website-objective)
     - [Key Features](#key-features)
