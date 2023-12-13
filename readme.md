@@ -83,11 +83,27 @@ See [Wireframes](#wireframes) below.
 
 ### Wireframes
 
+#### Desktop
+![Desktop Home Wireframe](./documents/wireframes/desktop-home.png)
 
+![Desktop Treatments Wireframe](./documents/wireframes/desktop-treatments.png)
+
+![Desktop Bookings Wireframe](./documents/wireframes/desktop-bookings.png)
+
+#### Tablet
+
+![Tablet Home Wireframe](./documents/wireframes/tablet-home.png)
+
+![Tablet Treatments Wireframe](./documents/wireframes/tablet-treatments.png)
+
+![Tablet Bookings Wireframe](./documents/wireframes/tablet-bookings.png)
 
 #### Mobile
-#### Tablet
-#### Desktop
+![Mobile Home Wireframe](./documents/wireframes/mobile-home.png)
+
+![Mobile Treatments Wireframe](./documents/wireframes/mobile-treatments.png)
+
+![Mobile Bookings Wireframe](./documents/wireframes/mobile-bookings.png)
 
 ### Colour Scheme
 
@@ -108,6 +124,8 @@ See [Wireframes](#wireframes) below.
 - **Balsamiq** was used to create wireframes for mobile, table and desktop.
 - **Pexel** was used to find royalty-free images that I could safely use without worry of copyright infringement.
 - [**Markdown Guide**](https://www.markdownguide.org/cheat-sheet/) was used to help create the readme.
+- [**Contrast Finder**](https://app.contrast-finder.org/) and [**Coolors**](https://coolors.co/) were used to help find a colour scheme with an acceptable contrast.
+- [**Favicon.io**](https://favicon.io/favicon-generator/) was used to create a
 
 ---
 
