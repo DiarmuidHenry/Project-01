@@ -20,7 +20,7 @@ h1, h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
-    color: #fef2f0;
+    color: #003a3d;
 }
 
 header {
@@ -51,7 +51,7 @@ header a {
     font-size: 110%;
     letter-spacing: 3px;
     list-style-type: none;
-    color: #ffffff;
+    color: #003a3d;
 }
 
 #menu>li {
@@ -59,7 +59,6 @@ header a {
 }
 
 .active {
-    /* border-bottom: 3px solid #ffffff; */
     font-weight: 800;
     font-size: 130%;
 }
@@ -90,7 +89,7 @@ nav {
     position: absolute;
     top: 8px;
     right: 15px;
-    color: #ffffff;
+    color: #003a3d;
 }
 
 main {
@@ -107,6 +106,10 @@ main {
     width: 100%;
     background: url("../images/hero.webp") no-repeat center center/cover;
     position: relative;
+}
+
+#hero h2 {
+    color: #ea4848;
 }
 
 #cover-text {
@@ -181,7 +184,7 @@ img {
 }
 
 .page-content a:hover {
-    border-bottom: 2px solid #000000;
+    border-bottom: 2px solid #003a3d;
 }
 
 #location-map-and-so-me {
@@ -189,6 +192,10 @@ img {
     flex-direction: column;
     justify-content: space-around;
     height: 100%;
+}
+
+#email-address {
+    font-size: 93%;
 }
 
 #opening-hours {
@@ -223,7 +230,7 @@ img {
 .so-me i {
     font-size: 160%;
     padding: 0;
-    color: #ffffff
+    color: #003a3d;
 }
 
 #so-me-large-screen {
@@ -304,7 +311,7 @@ input[type="date"] {
 }
 
 button {
-    background-color: #f08080;
+    background-color: #ea4848;
     color: #ffffff;
     padding: 8px 12px;
     border: none;
@@ -488,7 +495,7 @@ button:hover {
 
     /* Adding underline to page navigation */
     #menu a:hover {
-        border-bottom: 2px solid #ffffff;
+        border-bottom: 2px solid #003a3d;
     }
 
     /* Removing underline from current/active page, to reinforce it is the current page */
