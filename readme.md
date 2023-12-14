@@ -4,6 +4,8 @@ This project is a website for a physiotherapy clinic based in Collooney, Sligo.
 
 They provide a quality service and pride themselves in being industry leaders. They therefore want a professional website that suits their branding and their ethos. Since they are located in a region with lower population density, they want somewhere that people can discover not only information about their services, but also connect with them through social media, thereby increasing their potential client pool.
 
+![Homepage on all devices](./documents/readme-images/all-screens.webp)
+
 [Deployed Website](https://diarmuidhenry.github.io/Project-01/)
 
 ## Table of Contents<!-- omit from toc -->
@@ -33,11 +35,13 @@ They provide a quality service and pride themselves in being industry leaders. T
 - [Issues/Bugs](#issuesbugs)
   - [Resolved](#resolved)
   - [Unreseolved](#unreseolved)
-- [Since these have not been included in the HTML and/or CSS modules, I have no knowledge of how to improve or elmminate these issues. This can be addressed in the future.](#since-these-have-not-been-included-in-the-html-andor-css-modules-i-have-no-knowledge-of-how-to-improve-or-elmminate-these-issues-this-can-be-addressed-in-the-future)
 - [Testing \& Validation](#testing--validation)
   - [Functional Testing of Website](#functional-testing-of-website)
     - [Header /\& Navbar - Mobile](#header--navbar---mobile)
     - [Header /\& Navbar - Tablet /\& Desktop](#header--navbar---tablet--desktop)
+  - [Home Page](#home-page)
+  - [Treatments Page](#treatments-page)
+  - [Bookings Page](#bookings-page)
   - [PageSpeed Insights Tests](#pagespeed-insights-tests)
   - [HTML Code Validation](#html-code-validation)
   - [CSS Code Validation](#css-code-validation)
@@ -61,7 +65,7 @@ The website will include a homepage briefly covering what the clinic does and ai
 
 ## Potential Users
 
-The website would be of interest to anyone living in the area seeking treatment from a physhiothrapist.
+The website would be of interest to anyone living in the area seeking treatment from a physhiothrapist, as well as family/friends thereof.
 
 ### User Goals
 
@@ -119,9 +123,13 @@ See [Wireframes](#wireframes) below.
 ### Colour Scheme
 The colour scheme changed after the deployment due to [accessibility issues](#issuesbugs). The intial colour scheme included light pastel tones to give the user a feeling of calmness and professionalism; a clean experience without being cold and unwelcoming.
 
+![First Colour Scheme](./documents/readme-images/colour-01.webp)
+
 However, whilst testing using [WAVE](#technology--resources), it revealed a low contrast between the header background colour and the font colour. After experimenting with different font colours, it became apparent that the best option was to choose a darker text colour. For this reason, I settled on the following colour scheme.
 
-Although this wasn't the original plan, it still looks and feels clean, professional and warm, thereby fulfilling the orininal criteria.
+![Second Colour Scheme](./documents/readme-images/colour-02.webp)
+
+Although this wasn't the original plan, it still looks and feels clean, professional and warm, thereby fulfilling the original criteria.
 
 ### Icons/Links/Navigation
 
@@ -132,9 +140,23 @@ Links (in text) to external websites are done in bold, and are underlined when y
 ### Pages /& Features
 **Home**
 
+![Homepage 01](./documents/readme-images/features-01.webp)
+
+![Homepage 02](./documents/readme-images/features-02.webp)
+
+As originally planned, the *Home* page looks clean, professional, warm and welcoming, with a good mix of high quality pictures and well formatted text. The header allows for easy navigation, and the contact information allows for the user to learn about the clinic's location, as well as to see it's social media pages.
+
 **Treatments**
 
+![Treatments 01](./documents/readme-images/features-05.webp)
+
+The user can see and read about the variety of services that the clinic offers. As well as this, links are provided to external sites with exercises clients can perform at home. The intention of this is not only to get them started so they can see/feel the results of physiotherapy exercises, but also so that they feel that the clinic has already begun to help them before they have even stepped foot inside.
+
 **Bookings**
+
+![Bookings 01](./documents/readme-images/features-03.webp)
+
+The bookins form allows users (regulars and first-timers) to easily book an appointment. The clinic will be sent this informtaion and can then quickly get in touch with the user in the preferred method that they have selected.
 
 ---
 
@@ -149,12 +171,23 @@ Links (in text) to external websites are done in bold, and are underlined when y
 - [**Contrast Finder**](https://app.contrast-finder.org/) and [**Coolors**](https://coolors.co/) were used to help find a colour scheme with an acceptable contrast.
 - [**Favicon.io**](https://favicon.io/favicon-generator/) was used to create a custom favicon.
 - [**WAVE**](https://wave.webaim.org/) and [**PageSpeed Insights**](https://pagespeed.web.dev/) testing tools were used to locate minor issues and check both accessbility and performance. 
+- [**ChatGPT**](https://chat.openai.com/) was used to help fill in the blocks of text. Note: *no code was written/created using ChatGPT*.
+- [**Website Mockup Generator**](https://websitemockupgenerator.com/) to make the screen mockups seen at the top of the readme.
 
 ---
 
 ## Deployment
 
-Once the basic deisgn of the website was finished, I deployed it to GitHub Pages. [The history of all deployed version of the site can be found here](https://github.com/DiarmuidHenry/Project-01/deployments)
+Once the basic deisgn of the website was finished, I deployed it to GitHub Pages. [The history of all deployed version of the site can be found here](https://github.com/DiarmuidHenry/Project-01/deployments). I did this by doing the following:
+
+1. Log in to github.com.
+2. Selected *Project-01* in my list of repositories.
+3. Clicked Settings > Pages.
+4. Under *Source*, select *Deploy from a branch*.
+5. Under *Branch*, select *main* and */root*, then click *Save*.
+6. Wait a couple of minutes for the site to deploy, then navigate back to the repository.
+7. Click *Deployments*, which now should have appearde on the main repository page.
+8. Under *Active Deployments*, click the link https://diarmuidhenry.github.io/Project-01/. (The deployed page will open in the current tab).
 
 ---
 
@@ -166,7 +199,10 @@ Apart from the usual spelling mistakes/typos, forgotten brackets/line breaks, th
 
 - One of these was with the lack of colour contrast, which was mentioned above in the [Colour Scheme](#colour-scheme) section.
   
-- Invalid inputs were being accepted by the form, e.g. entering letters in the *Phone Number* field was allowed, entering numbers in the *First Name* field was allowed. 
+- Invalid inputs were being accepted by the form, e.g. entering letters in the *Phone Number* field was allowed, entering numbers in the *First Name* field was allowed.
+
+
+
 
 The fix to this was simply to restrict the input pattern for the relevant fields to the correct type/format.
 
@@ -186,10 +222,9 @@ I found a rree online tool to decrease the size of the image and replaced the or
 ### Unreseolved
 
 - When using [PageSpeed Insights](#technology--resources) to check the speed of each HTML page on Mobile devices, there are several things that are causing delays, including those shown below:
-
-
-
+- 
 Since these have not been included in the HTML and/or CSS modules, I have no knowledge of how to improve or elmminate these issues. This can be addressed in the future.
+
 ---
 
 ## Testing & Validation
@@ -200,14 +235,43 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 
 |Test Item|Test Carried Out|Result|Pass/Fail|
 |-------------|------------------|-----------|-------|
-|||||
-|Hamburger Icon|Clicked on icon|The dropdown menu appeared, showing *Home*, *Treatments* and *Bookings*|PASS|
+|Hamburger icon|Clicked on icon|The dropdown menu appeared, showing *Home*, *Treatments* and *Bookings*|PASS|
 |*Home* link in navbar|Click on *Home*|*Home* page loads|PASS|
 |*Treatments* link in navbar|Click on *Treatments*|*Treatments* page loads|PASS|
 |*Bookings* link in navbar|Click on *Bookings*|*Bookings* page loads|PASS|
 |Current page location appears in bold|Reveal dropdown menu whilst on *Home*, *Treatments* and *Bookings*|Current location is shown in bold|PASS|
 
 #### Header /& Navbar - Tablet /& Desktop
+
+|Test Item|Test Carried Out|Result|Pass/Fail|
+|-------------|------------------|-----------|-------|
+|*Home* link in navbar|Hover over, then click on *Home*|*Home* is underlined when hovered over. When clicked, *Home* page loads|PASS|
+|*Treatments* link in navbar|Hover over, then click on *Treatments*|*Treatments* is underlined when hovered over. When clicked, *Treatments* page loads|PASS|
+|*Bookings* link in navbar|Hover over, then click on *Home*|*Bookings* is underlined when hovered over. When clicked, *Bookings* page loads|PASS|
+|Current page location appears in bold|N/A|Current location is shown in bold|PASS|
+
+### Home Page
+
+|Test Item|Test Carried Out|Result|Pass/Fail|
+|-------------|------------------|-----------|-------|
+|Embedded Google Map|Click on map, drag around, zoom in, click on 'View larger map' and 'Directions' links|All interactions and links worked as expected|PASS|
+|Email Address link|Click on email address|Email app opened and opened a new email addressed to collooneyphysiotherapy@gmail.com|PASS|
+|Phone link|Click on phone number|Phone number was copied to keypad, 1 click away from calling the correct number. On Desktop, the default phone app e.g. WhatsApp, Skype opened up and was awaiting confirmation to call the correct number|PASS|
+|Facebook icon|Click on Facebook icon|Opens Facebook's homepage in a new tab|PASS|
+|Instagram icon|Click on Instagram icon|Opens Instagram's homepage in a new tab|PASS|
+|LinkedIn icon|Click on LinkedIn icon|Opens LinkedIn's homepage in a new tab|PASS|
+
+### Treatments Page
+
+|Test Item|Test Carried Out|Result|Pass/Fail|
+|-------------|------------------|-----------|-------|
+|*Exercises at Home* links|Click on each link|Each link opens the correct corresponding website in a new tab|PASS|
+
+### Bookings Page
+
+|Test Item|Test Carried Out|Result|Pass/Fail|
+|-------------|------------------|-----------|-------|
+
 
 ### PageSpeed Insights Tests
 
