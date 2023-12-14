@@ -86,26 +86,26 @@ See [Wireframes](#wireframes) below.
 ### Wireframes
 
 #### Desktop
-![Desktop Home Wireframe](./documents/wireframes/desktop-home.png)
+![Desktop Home Wireframe](./documents/wireframes/desktop-home.webp)
 
-![Desktop Treatments Wireframe](./documents/wireframes/desktop-treatments.png)
+![Desktop Treatments Wireframe](./documents/wireframes/desktop-treatments.webp)
 
-![Desktop Bookings Wireframe](./documents/wireframes/desktop-bookings.png)
+![Desktop Bookings Wireframe](./documents/wireframes/desktop-bookings.webp)
 
 #### Tablet
 
-![Tablet Home Wireframe](./documents/wireframes/tablet-home.png)
+![Tablet Home Wireframe](./documents/wireframes/tablet-home.webp)
 
-![Tablet Treatments Wireframe](./documents/wireframes/tablet-treatments.png)
+![Tablet Treatments Wireframe](./documents/wireframes/tablet-treatments.webp)
 
-![Tablet Bookings Wireframe](./documents/wireframes/tablet-bookings.png)
+![Tablet Bookings Wireframe](./documents/wireframes/tablet-bookings.webp)
 
 #### Mobile
-![Mobile Home Wireframe](./documents/wireframes/mobile-home.png)
+![Mobile Home Wireframe](./documents/wireframes/mobile-home.webp)
 
-![Mobile Treatments Wireframe](./documents/wireframes/mobile-treatments.png)
+![Mobile Treatments Wireframe](./documents/wireframes/mobile-treatments.webp)
 
-![Mobile Bookings Wireframe](./documents/wireframes/mobile-bookings.png)
+![Mobile Bookings Wireframe](./documents/wireframes/mobile-bookings.webp)
 
 ### Colour Scheme
 The colour scheme changed after the deployment due to [accessibility issues](#issuesbugs). The intial colour scheme included light pastel tones to give the user a feeling of calmness and professionalism; a clean experience without being cold and unwelcoming.
