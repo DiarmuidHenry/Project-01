@@ -16,7 +16,8 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Nunito', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -47,6 +48,7 @@ header a {
     padding: 0.75rem 0;
 }
 
+/* Text in navbar */
 #menu {
     font-size: 110%;
     letter-spacing: 3px;
@@ -58,6 +60,7 @@ header a {
     margin-bottom: 0.5em;
 }
 
+/* Current page is shown in this style to emphasise location in website */
 .active {
     font-weight: 800;
     font-size: 130%;
@@ -100,7 +103,6 @@ main {
 }
 
 /* Hero section styling */
-
 #hero {
     height: 450px;
     width: 100%;
@@ -130,6 +132,7 @@ main {
     text-align: right;
 }
 
+/* General content styling in page */
 .page-content {
     margin: 30px auto 40px auto;
     width: 80%;
@@ -137,14 +140,18 @@ main {
 
 .page-content p {
     margin: 10px auto;
+    font-size: 90%;
 }
 
-img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 6px;
-    margin: 10px auto;
+.page-content a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.page-content a:hover {
+    border-bottom: 2px solid #003a3d;
 }
 
 .page-content h2 {
@@ -159,6 +166,16 @@ img {
     margin: 0px auto;
 }
 
+/* Default image styling. Slightly rounded corners to soften appearance */
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 6px;
+    margin: 10px auto;
+}
+
+/* Homepage > Contact section styling */
 #contact {
     font-size: 110%;
 }
@@ -168,23 +185,12 @@ img {
     border: 0;
     margin: 10px auto 50px auto;
     border-radius: 4px;
-    height: 50vw;        
+    height: 50vw;
 }
 
 #contact-info {
     text-align: center;
     margin: 0 0 20px 0;
-}
-
-.page-content a {
-    text-decoration: none;
-    color: inherit;
-    font-size: 110%;
-    font-weight: 700;
-}
-
-.page-content a:hover {
-    border-bottom: 2px solid #003a3d;
 }
 
 #location-map-and-so-me {
@@ -214,6 +220,7 @@ img {
     padding-left: 5px;
 }
 
+/* SoMe styling */
 .so-me {
     background-color: #f08080;
     text-align: center;
@@ -223,7 +230,7 @@ img {
     list-style-type: none;
 }
 
-#so-me-large-screen > .so-me {
+#so-me-large-screen>.so-me {
     background-color: #fef2f0;
 }
 
@@ -241,6 +248,7 @@ img {
     border-bottom: none;
 }
 
+/* Bookings > Bookings form styling */
 #bookings-form {
     display: flex;
     flex-wrap: wrap;
@@ -331,37 +339,40 @@ button:hover {
     margin: 30px 0;
 }
 
-/* media queries for very small mobiles, to stop overlapping in header */
+/* media queries for small mobiles, under 500px wide */
 @media screen and (max-width: 500px) {
-    #bookings-form label:not(#phone-label,
-            #email-label, #appointment-date-label,
-            #appointment-time-label, #message-label, #preferred) {
-            width: 40%;
-        }
 
-        #preferred {
-            width: 50%;
-        }
-    
-        input {
-            width: 60%;
-        }
+    /* Restyling bookings form to make more room for input text */
+    #bookings-form label:not(#phone-label,
+        #email-label, 
+        #appointment-date-label,
+        #appointment-time-label, 
+        #message-label, 
+        #preferred) {
+        width: 40%;
     }
 
+    #preferred {
+        width: 50%;
+    }
+
+    input {
+        width: 60%;
+    }
+}
 
 
-/* media queries for very small mobiles, to stop overlapping in header */
+
+/* media queries for very small mobiles, under 400px*/
 @media screen and (max-width: 400px) {
+
+    /* Restyling to stop overlapping text in header */
     #logo {
         font-size: 105%;
     }
 
     .nav-toggle-label {
         font-size: 1.5rem;
-    }
-
-    main {
-        margin-top: 48px;
     }
 
     #menu {
@@ -373,6 +384,12 @@ button:hover {
         left: 5%;
     }
 
+    /* Adjusting top of main content to suit the smaller header */
+    main {
+        margin-top: 48px;
+    }
+
+    /* Decreasing font-size in Bookings form to better fit the limited real estate */
     #bookings-form-div {
         font-size: 80%;
     }
@@ -381,7 +398,7 @@ button:hover {
 /* media queries for tablets (768px) and larger screens */
 @media screen and (min-width: 768px) {
 
-    /* Header/navbar */
+    /* Header and navbar */
     nav {
         display: block;
         position: relative;
@@ -424,6 +441,14 @@ button:hover {
         margin-top: 124px;
     }
 
+    /* Restlying the hero text to better fir the larger screen */
+    #cover-text {
+        font-size: 2.5vw;
+        width: 70%;
+        left: 15%;
+    }
+
+    /* Restyling the homepage, different layout than in mobile */
     #about-us {
         display: flex;
         justify-content: space-between;
@@ -436,7 +461,7 @@ button:hover {
     .homepage-image-div {
         display: flex;
         align-items: center;
-        justify-content: center;
+        max-height: 400px;
     }
 
     #about-us-image {
@@ -454,7 +479,7 @@ button:hover {
         flex-direction: row-reverse;
     }
 
-    #our-goals > div {
+    #our-goals>div {
         width: 47%;
     }
 
@@ -470,7 +495,7 @@ button:hover {
         align-items: center;
     }
 
-    #contact-text > div {
+    #contact-text>div {
         width: 48%;
         font-size: 110%;
     }
@@ -494,20 +519,19 @@ button:hover {
         padding: 10%;
     }
 
+    /* Hiding the footer on the homepage */
+    #footer-home {
+        display: none;
+    }
+
+    /* Making text on Treatments page larger to better fill/use the space */
+    .treatments p {
+        font-size: 110%;
+    }
+
     #exercises-at-home-links {
         width: 80%;
         margin: auto;
-    }
-
-
-    #cover-text {
-        font-size: 2.5vw;
-        width: 70%;
-        left: 15%;
-    }
-
-    #footer-home {
-        display: none;
     }
 }
 
@@ -524,15 +548,28 @@ button:hover {
         border-bottom: none;
     }
 
-    .page-content > section {
+    /* Increases text in paragraphs to increase accessibility */
+    .page-content p {
+        font-size: 100%;
+    }
+
+    .treatments p {
+        font-size: 120%;
+    }
+
+    /* Spreading out sections over the increased real estate */
+    .page-content>section {
         margin-top: 50px;
         margin-bottom: 50px;
     }
 
-    #about-us>div, #our-goals>div {
+    /* Divs fill 8% more width on homepage */
+    #about-us>div,
+    #our-goals>div {
         width: 44%;
     }
 
+    /* Margins on Treatments page, content would otherwise be unneccesarily large */
     .treatments .page-content {
         width: 70%;
     }
@@ -547,7 +584,8 @@ button:hover {
         margin-right: 10%;
     }
 
-    .bookings .page-content >div  {
+    /* Restyling of Bookings page to better suit the larger space */
+    .bookings .page-content>div {
         display: flex;
         justify-content: space-between;
     }
@@ -561,12 +599,13 @@ button:hover {
     }
 
     #bookings-form label:not(#phone-label,
-    #email-label, #appointment-date-label,
-    #appointment-time-label, #message-label) {
+        #email-label, 
+        #appointment-date-label,
+        #appointment-time-label, 
+        #message-label) {
         width: 30%
     }
-    
-    
+
     #appointment-date-label,
     #appointment-time-label {
         display: block;
@@ -574,7 +613,7 @@ button:hover {
         width: 50%;
         text-align: right;
     }
-    
+
     #message-label,
     #space-before-button {
         display: block;
@@ -583,34 +622,48 @@ button:hover {
         text-align: right;
         margin: 0;
     }
-    
+
     #bookings-form label:after {
         content: " :";
         margin-right: 5px;
     }
-    
+
     input,
     textarea {
         width: 70%;
         box-sizing: border-box;
         margin-bottom: 12px;
     }
-    
+
     select {
         width: 50%;
         box-sizing: border-box;
         margin-bottom: 12px;
     }
-    
+
     #message {
         width: 80%;
     }
-    
+
     input[type="radio"] {
         width: 4%;
     }
-    
+
     input[type="date"] {
         width: 50%;
+    }
+}
+
+/* media queries for very large screens */
+@media screen and (min-width: 1500px) {
+
+    /* Remove restriction on height of image divs on homepage */
+    .homepage-image-div {
+        max-height: none;
+    }
+
+    /* Increase font size to avoid paragraphs looking empty */
+    .page-content {
+        font-size: 1.1vw;
     }
 }

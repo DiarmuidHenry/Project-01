@@ -35,81 +35,98 @@
 
     <main>
         <section class="page-content">
-        <h2>Bookings</h2>
-        <div id="bookings-text">
-        <div id="bookings-info">
-            <p>
-                If you would like to make an appointment with one of our
-                physiotherapists, please fill out the form below and we
-                will get in touch. If you have any special requirements,
-                please let us know in the space provided. We look forward
-                to hearing from you.
-            </p>
-        </div>
-        <div id="bookings-form-div">
-        <form id="bookings-form" action="https://formdump.codeinstitute.net/" target="_blank" method="post">
-            <!-- First Name -->
-            <label for="first-name">First Name</label>
-            <input type="text" id="first-name" name="first-name" placeholder="First Name" pattern="[a-zA-Z\s]+" required>
-            <!-- Surname -->
-            <label for="surname">Surname</label>
-            <input type="text" id="surname" name="surname" placeholder="Surname" pattern="[a-zA-Z\s]+" required>
-            <!-- Phone Number -->
-            <label for="phone-number">Phone Number</label>
-            <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number" pattern="[0-9+]{7,16}" required>
-            <!-- Email Address -->
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email" placeholder="Email Address" required>
-            <!-- Preferred method of contact -->
-            <label id="preferred">Preferred contact</label>
-            <label id="phone-label" for="contact-phone">Phone</label>
-            <input type="radio" id="contact-phone" name="contact-method" value="Phone" required>
-            <label id="email-label" for="contact-email">Email</label>
-            <input type="radio" id="contact-email" name="contact-method" value="Email" required>
-            <!-- Date of Appointment -->
-            <label id="appointment-date-label" for="appointment-date">Date of Appointment</label>
-            <input type="date" id="appointment-date" name="appointment-date" required>
-            <!-- Time of Appointment -->
-            <label id="appointment-time-label" for="appointment-time">Time of Appointment</label>
-            <select name="appointment-time" id="appointment-time">
-                <option value="08:00">08:00</option>
-                <option value="08:30">08:30</option>
-                <option value="09:00">09:00</option>
-                <option value="09:30">09:30</option>
-                <option value="10:00">10:00</option>
-                <option value="10:30">10:30</option>
-                <option value="11:00">11:00</option>
-                <option value="11:30">11:30</option>
-                <option value="12:00">12:00</option>
-                <option value="12:30">12:30</option>
-                <option value="13:00">13:00</option>
-                <option value="13:30">13:30</option>
-                <option value="14:00">14:00</option>
-                <option value="14:30">14:30</option>
-                <option value="15:00">15:00</option>
-                <option value="15:30">15:30</option>
-            </select>
-            <!-- Message -->
-            <label id="message-label" for="message">Message</label>
-            <textarea id="message" name="message" placeholder="[OPTIONAL] Please include any information relevant to your booking here" rows="8"></textarea>
-            <div id="space-before-button"></div>
-            <!-- Submit Button -->
-            <button type="submit">Submit</button>
-        </form>
-        </div>
-        </div>
+            <h2>Bookings</h2>
+            <div id="bookings-text">
+                <!-- Text giving details about the booking process -->
+                <div id="bookings-info">
+                    <p>
+                        Booking an appointment or reaching out with any inquiries is a straightforward process designed to make your experience
+                        seamless. Our dedicated team is ready to assist you in scheduling a consultation, answering questions about our
+                        services, or providing any additional information you may need. We understand the importance of timely and accessible
+                        healthcare, and our online booking system ensures that you can secure an appointment at your convenience. Feel free to
+                        reach out through our contact form or give us a call: your well-being is our priority, and we look forward to assisting
+                        you on your path to optimal health and vitality. If you have any special requirements, please let us know
+                        in the space provided. We look forward to hearing from you.
+                    </p>
+                </div>
+                <div id="bookings-form-div">
+                    <!-- Booking form -->
+                    <form id="bookings-form" action="https://formdump.codeinstitute.net/" target="_blank" method="post">
+                        <!-- First Name. Only accepyts letters and spaces as input -->
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name"
+                            pattern="[a-zA-Z\s]+" required>
+                        <!-- Surname. Only accepyts letters and spaces as input -->
+                        <label for="surname">Surname</label>
+                        <input type="text" id="surname" name="surname" placeholder="Surname" pattern="[a-zA-Z\s]+"
+                            required>
+                        <!-- Phone Number. Input must contain 0-9 and '+' only, must be between 7 and 16 characters long -->
+                        <label for="phone-number">Phone Number</label>
+                        <input type="tel" id="phone-number" name="phone-number" placeholder="Phone Number"
+                            pattern="[0-9+]{7,16}" required>
+                        <!-- Email Address -->
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="Email Address" required>
+                        <!-- Preferred method of contact. One must be selected -->
+                        <label id="preferred">Preferred contact</label>
+                        <label id="phone-label" for="contact-phone">Phone</label>
+                        <input type="radio" id="contact-phone" name="contact-method" value="Phone" required>
+                        <label id="email-label" for="contact-email">Email</label>
+                        <input type="radio" id="contact-email" name="contact-method" value="Email" required>
+                        <!-- Date of Appointment -->
+                        <label id="appointment-date-label" for="appointment-date">Date of
+                            Appointment</label>
+                        <input type="date" id="appointment-date" name="appointment-date" required>
+                        <!-- Time of Appointment. Select from the list -->
+                        <label id="appointment-time-label" for="appointment-time">Time of
+                            Appointment</label>
+                        <select name="appointment-time" id="appointment-time">
+                            <option value="08:00">08:00</option>
+                            <option value="08:30">08:30</option>
+                            <option value="09:00">09:00</option>
+                            <option value="09:30">09:30</option>
+                            <option value="10:00">10:00</option>
+                            <option value="10:30">10:30</option>
+                            <option value="11:00">11:00</option>
+                            <option value="11:30">11:30</option>
+                            <option value="12:00">12:00</option>
+                            <option value="12:30">12:30</option>
+                            <option value="13:00">13:00</option>
+                            <option value="13:30">13:30</option>
+                            <option value="14:00">14:00</option>
+                            <option value="14:30">14:30</option>
+                            <option value="15:00">15:00</option>
+                            <option value="15:30">15:30</option>
+                        </select>
+                        <!-- Message -->
+                        <label id="message-label" for="message">Message</label>
+                        <textarea id="message" name="message"
+                            placeholder="[OPTIONAL] Please include any information relevant to your booking here"
+                            rows="8"></textarea>
+                        <div id="space-before-button"></div>
+                        <!-- Submit Button -->
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
         </section>
     </main>
 
+    <!-- Footer -->
     <footer>
         <ul class="so-me">
-            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
                     aria-label="Visit our Facebook page (opens in a new tab)"><i
-                        class="fa-brands fa-facebook-f"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                        class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
                     aria-label="Visit our Instagram page (opens in a new tab)"><i
-                        class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.linkedin.com" target="_blank" rel="noopener"
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener"
                     aria-label="Visit our LinkedIn page (opens in a new tab)"><i class="fa-brands fa-linkedin"></i></a>
             </li>
         </ul>
