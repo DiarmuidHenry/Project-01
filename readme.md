@@ -1,6 +1,6 @@
 # Collooney Physiotherapy Website - PP1<!-- omit from toc -->
 
-This project is a website for a physiotherapy clinic based in Collooney, Sligo.
+This project is a website for a physiotherapy clinic based in Collooney, Co. Sligo.
 
 They provide a quality service and pride themselves in being industry leaders. They therefore want a professional website that suits their branding and their ethos. Since they are located in a region with lower population density, they want somewhere that people can discover not only information about their services, but also connect with them through social media, thereby increasing their potential client pool.
 
@@ -29,16 +29,16 @@ They provide a quality service and pride themselves in being industry leaders. T
     - [Mobile](#mobile)
   - [Colour Scheme](#colour-scheme)
   - [Icons/Links/Navigation](#iconslinksnavigation)
-  - [Pages /\& Features](#pages--features)
+  - [Pages \& Features](#pages--features)
 - [Technology \& Resources](#technology--resources)
 - [Deployment](#deployment)
 - [Issues/Bugs](#issuesbugs)
   - [Resolved](#resolved)
-  - [Unreseolved](#unreseolved)
+  - [Unresolved](#unresolved)
 - [Testing \& Validation](#testing--validation)
   - [Functional Testing of Website](#functional-testing-of-website)
-    - [Header /\& Navbar - Mobile](#header--navbar---mobile)
-    - [Header /\& Navbar - Tablet /\& Desktop](#header--navbar---tablet--desktop)
+    - [Header \& Navbar - Mobile](#header--navbar---mobile)
+    - [Header \& Navbar - Tablet \& Desktop](#header--navbar---tablet--desktop)
   - [Home Page](#home-page)
   - [Treatments Page](#treatments-page)
   - [Bookings Page](#bookings-page)
@@ -55,11 +55,11 @@ They provide a quality service and pride themselves in being industry leaders. T
 ### Website Objective
 
 To create a website advertising Collooney Physiotherapy to those searching the services of a physiotherapist in the surrounding area, thereby increasing the number of clients.
-The website should clearly show the services provided, as well as giving the user a positive experience whilst on the website. This would be achieved by an intuiative layout, images positive images and a soft, comfortable colour palette.
+The website should clearly show the services provided, as well as giving the user a positive experience whilst on the website. This would be achieved by an intuiative layout, positive images and a soft, comfortable colour palette.
 
 ### Key Features
 
-The website will include a homepage briefly covering what the clinic does and aims to achieve with their services. There will also be a page showing treatments provided, as well as links to exerciese people can do themselves at home. Finally, there will be a bookings page, where potential clients can contact the clinic about making a booking by providing a date, time, their contact details, as well as any information prevelant to their booking.
+The website will include a *Home* page briefly covering what the clinic does and aims to achieve with their services. There will also be a page showing *Treatments* provided, as well as links to exercises people can do themselves at home. Finally, there will be a *Bookings* page, where potential clients can contact the clinic about making a booking by providing a date, time, their contact details, as well as any information relevant to their booking.
 
 ---
 
@@ -69,32 +69,44 @@ The website would be of interest to anyone living in the area seeking treatment 
 
 ### User Goals
 
-To either make an appointment/enquiry with the clinic, or at least learn more about them so that they can
-then decide if they would liee to go ahead and seek treatment.
+To either make an appointment/enquiry with the clinic, or at least learn more about them so that they can then decide if they would like to go ahead and seek treatment.
 
 ### User Testimonials
 
+John, aged 34, lives in Ballisodare, Co. Sligo, just a few kilometres from Collooney. He has injured his shoulder playing football at the weekend, which was then exacerbated by his physical day job as a plasterer. He would like to get professional help, but thinks that a visit to his GP isn't the right approach.
+
+John searched online and found the website for Collooney Physiotherapy. He was initially impressed by the sleek, simple design, giving him a good first impression. He had a look at the clinic's social media pages and was impressed by the range of services that he saw patients receiving. He looked through some of the exercises they recommended he do at home, and figured he'd see if they helped.
+
+2 days later, and John is already feeling better, but there was still a lot of pain and discomfort. He revisited the website and quickly navigated to the *Bookings* form, where he made an appointment for next Thursday at 11.30, remembering to explain his condition in the *Message* field. Around 15 minutes later, when the clinic had received and read his submission, they rang him on his mobile (which was his preferred method of contact), letting him know what they have booked him in for the appointment at 11.30 next Thursday. This also gave them a few minutes to chat about his condition, break the ice, and to make John feel welcome before he even arrived.
+
+John has now been to the clinic 3/4 times and his physical condition has greatly improved. He has also recommended Collooney Physiotherapy to some of his coworkers that are also suffering from muscular pain.
+
 ---
 
-## Design & Development
+## Design \& Development
 
 ### 5 Planes of UX
+
 #### Strategy
-- Users in the geographical are  need a physiotherapist but don't know where to find one. The clinic itself wants to get more clients to increase business.
+
+- Users in the geographical area need a physiotherapist, but don't know where to find one. The clinic itself wants to get more clients to increase business.
   
 #### Scope
-- Include a homepage wtogive an overall impresiosn onf the page. Includsome of the treatments available ad have a way that thae users can make a booking, o enquire about a booing.
+
+- Include a *Home* page that gives an overall positive impression of the page. Include some of the therapies available and have a way that thae users can make a booking, or enquire about a booking.
   
 #### Structure
-- 3 pages: Home, Treatments and Bookings. Users can easilyad cleal navigate between these fro a navbar (or dropdown menu on mobile deviees)
+
+- 3 pages: *Home*, *Treatments* and *Bookings*. Users can easily and clearly navigate between these from a navbar (or dropdown menu on mobile devices).
   
 #### Skeleton
-- A hero image greets the user when they first link to the site. A clear navbar at the top links to the 3 pages, whilst making clear which page the user is on. The pages contain a mixture of text and complementary images to give users visual guidance to what they can expect if they choose to become a client.
+
+- A hero image greets the user when they first link to the site. A clear navbar at the top links to the 3 pages, whilst making it apparent/obvious which page the user is on. The pages contain a mixture of text and complementary images to give users visual guidance to what they can expect if they choose to become a client.
   
 See [Wireframes](#wireframes) below.
 
 #### Surface
-- A soft, professional pastel [colour scheme](#colour-scheme) to represent calmness and professionalism. Intuitive UI with clear links, explanatory text and all basic information.
+- A soft, professional pastel [colour scheme](#colour-scheme) to represent calmness and professionalism. Intuitive UI with clear links, explanatory text and all necessary basic information.
 
 ### Wireframes
 
@@ -125,7 +137,11 @@ The colour scheme changed after the deployment due to [accessibility issues](#is
 
 ![First Colour Scheme](./documents/readme-images/colour-01.webp)
 
-However, whilst testing using [WAVE](#technology--resources), it revealed a low contrast between the header background colour and the font colour. After experimenting with different font colours, it became apparent that the best option was to choose a darker text colour. For this reason, I settled on the following colour scheme.
+However, whilst testing using [WAVE](#technology--resources), it revealed a low contrast between the header background colour and the font colour.
+
+![Contrast Issue](./documents/readme-images/contrast-issue.webp)
+
+After experimenting with different font colours, it became apparent that the best option was to choose a darker text colour. For this reason, I settled on the following colour scheme.
 
 ![Second Colour Scheme](./documents/readme-images/colour-02.webp)
 
@@ -135,9 +151,9 @@ Although this wasn't the original plan, it still looks and feels clean, professi
 
 Icons with links to social media were done with colours contrasting to the background to make them stand out.
 Links to other pages on the website are underlined when you hover over with a mouse, and are in bold when that is the current page, to emphasise that it is the current location.
-Links (in text) to external websites are done in bold, and are underlined when you hover over them. I also avoided single word hyperlinks to make them more obvious, and thereby approve accessibility.
+Links (in text) to external websites are done in bold, and are underlined when you hover over them. I also avoided single word hyperlinks to make them more obvious (a result from [WAVE](#technology--resources) analysis), and thereby approve accessibility.
 
-### Pages /& Features
+### Pages \& Features
 **Home**
 
 ![Homepage 01](./documents/readme-images/features-01.webp)
@@ -160,7 +176,7 @@ The bookins form allows users (regulars and first-timers) to easily book an appo
 
 ---
 
-## Technology & Resources
+## Technology \& Resources
 - **IDE :** [CodeAnywhere](https://app.codeanywhere.com/)
 - **Languages :** HTML and CSS, with Markdown being used for this readme.
 - **Template :** The [CodeInstitute template](https://github.com/Code-Institute-Org/ci-full-template) was used in order to install all the relevant tools for the code to function.
@@ -178,7 +194,9 @@ The bookins form allows users (regulars and first-timers) to easily book an appo
 
 ## Deployment
 
-Once the basic deisgn of the website was finished, I deployed it to GitHub Pages. [The history of all deployed version of the site can be found here](https://github.com/DiarmuidHenry/Project-01/deployments). I did this by doing the following:
+Once the basic deisgn of the website was finished, I deployed it to GitHub Pages. [The history of all deployed version of the site can be found here](https://github.com/DiarmuidHenry/Project-01/deployments).
+
+### How to Deploy to GitHub Pages
 
 1. Log in to github.com.
 2. Selected *Project-01* in my list of repositories.
@@ -188,6 +206,14 @@ Once the basic deisgn of the website was finished, I deployed it to GitHub Pages
 6. Wait a couple of minutes for the site to deploy, then navigate back to the repository.
 7. Click *Deployments*, which now should have appearde on the main repository page.
 8. Under *Active Deployments*, click the link https://diarmuidhenry.github.io/Project-01/. (The deployed page will open in the current tab).
+
+### How to Clone Repository
+
+1. Go to the [GitHub repository](https://github.com/DiarmuidHenry/Project-01/).
+2. Click the green *Code* dropwdwn button.
+3. Click *HTTPS* and copy the URL.
+4. Open your IDE, and open a terminal.
+5. Type `git clone url`, replacing `url` with the URL copied in step 3.
 
 ---
 
@@ -201,25 +227,31 @@ Apart from the usual spelling mistakes/typos, forgotten brackets/line breaks, th
   
 - Invalid inputs were being accepted by the form, e.g. entering letters in the *Phone Number* field was allowed, entering numbers in the *First Name* field was allowed.
 
+![Forms Before 01](./documents/readme-images/form-input-01.webp)
 
+![Forms Before 01](./documents/readme-images/form-input-02.webp)
 
-
-The fix to this was simply to restrict the input pattern for the relevant fields to the correct type/format.
+The fix to this was simply to restrict the input pattern for the relevant fields to the correct type/format. Now, only inputs of the correct form are accepted.
 
 - The image under *Reabilitation* on the *Treatments* page was slightly blurry/pixelated on larger screens.
+
+![Blurry image](./documents/readme-images/blurry-image.webp)
 
 This was fixed by replacing it with another picture that was sufficiently large.
 
 - The language inside the mapo embedded in the iframe on the *Home* page was in Danish. This was due to the fact that the language of the computer that I was using was Danish. 
 
+![Map Issue Before](./documents/readme-images/map-issue-01.webp)
   
 After a quick Google search, I found out which letters in the `src` property of the iframe were respsonsible for language. I simply change `da` to `en` and it solved the issue.
+
+![Map Issue After](./documents/readme-images/map-issue-02.webp)
 
 - When using [PageSpeed Insights](#technology--resources) to check the speed of each HTML page, I saw that two of the image files I had used were very large, causing the *Home* page ot load slowly.
 
 I found a rree online tool to decrease the size of the image and replaced the original with the smaller one. This drastically decreased the loading time.
 
-### Unreseolved
+### Unresolved
 
 - When using [PageSpeed Insights](#technology--resources) to check the speed of each HTML page on Mobile devices, there are several things that are causing delays, including those shown below:
 - 
@@ -227,11 +259,11 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 
 ---
 
-## Testing & Validation
+## Testing \& Validation
 
 ### Functional Testing of Website
 
-#### Header /& Navbar - Mobile
+#### Header \& Navbar - Mobile
 
 |Test Item|Test Carried Out|Result|Pass/Fail|
 |-------------|------------------|-----------|-------|
@@ -241,7 +273,7 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 |*Bookings* link in navbar|Click on *Bookings*|*Bookings* page loads|PASS|
 |Current page location appears in bold|Reveal dropdown menu whilst on *Home*, *Treatments* and *Bookings*|Current location is shown in bold|PASS|
 
-#### Header /& Navbar - Tablet /& Desktop
+#### Header \& Navbar - Tablet \& Desktop
 
 |Test Item|Test Carried Out|Result|Pass/Fail|
 |-------------|------------------|-----------|-------|
@@ -250,7 +282,16 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 |*Bookings* link in navbar|Hover over, then click on *Home*|*Bookings* is underlined when hovered over. When clicked, *Bookings* page loads|PASS|
 |Current page location appears in bold|N/A|Current location is shown in bold|PASS|
 
-### Home Page
+#### Footer
+
+|Test Item|Test Carried Out|Result|Pass/Fail|
+|-------------|------------------|-----------|-------|
+|Facebook icon|Click on Facebook icon|Opens Facebook's homepage in a new tab|PASS|
+|Instagram icon|Click on Instagram icon|Opens Instagram's homepage in a new tab|PASS|
+|LinkedIn icon|Click on LinkedIn icon|Opens LinkedIn's homepage in a new tab|PASS|
+
+
+#### Home Page
 
 |Test Item|Test Carried Out|Result|Pass/Fail|
 |-------------|------------------|-----------|-------|
@@ -261,17 +302,17 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 |Instagram icon|Click on Instagram icon|Opens Instagram's homepage in a new tab|PASS|
 |LinkedIn icon|Click on LinkedIn icon|Opens LinkedIn's homepage in a new tab|PASS|
 
-### Treatments Page
+#### Treatments Page
 
 |Test Item|Test Carried Out|Result|Pass/Fail|
 |-------------|------------------|-----------|-------|
 |*Exercises at Home* links|Click on each link|Each link opens the correct corresponding website in a new tab|PASS|
 
-### Bookings Page
+#### Bookings Page
 
 |Test Item|Test Carried Out|Result|Pass/Fail|
 |-------------|------------------|-----------|-------|
-
+|Booking form|Inputs of varying types (alphabetical; numerical; alphanumerical; blank;) were tried in all input forms.|Only valid inputs in the correct form were accepted|PASS|
 
 ### PageSpeed Insights Tests
 
@@ -279,13 +320,15 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 - [Treatments](https://pagespeed.web.dev/analysis/https-diarmuidhenry-github-io-Project-01-treatments-html/8ntp5kvtjo?form_factor=desktop)
 - [Bookings](https://pagespeed.web.dev/analysis/https-diarmuidhenry-github-io-Project-01-bookings-html/nz7g9lg2ci?form_factor=desktop)
 
+All pages performed very well, scoring 100 for *Accessibility*, *Best Practices* and *SEO*. While each page scored 94+ for *Performance* on Desktop, some of the pages scored as low as 85 on Mobile. However, after trying out those pages on several mobile devices, I was happy that this did not result in any sort of delays or negative results in user experience.
+
 ### HTML Code Validation
 
 No errors were found in any of the HTML files.
 
 - [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiarmuidhenry.github.io%2FProject-01%2Findex.html)
 - [Treatments](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiarmuidhenry.github.io%2FProject-01%2Ftreatments.html)
-- [Bookings](https://diarmuidhenry.github.io/Project-01/bookings.html)
+- [Bookings](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiarmuidhenry.github.io%2FProject-01%2Fbookings.html)
 
 ### CSS Code Validation
 
@@ -296,6 +339,14 @@ No errors were found in the `style.css` file.
 
 ## Future Improvements/Development
 
-- Sort out the performance issues on [PageSpeed Insights](#technology--resources) to improve the loading time on mobile devices.
-- Improve the variety of images to shower a broader range of services to potential clients.
+- Sort out the performance issues on [PageSpeed Insights](#technology--resources) to improve the loading time on mobile devices to get a score of 90+.
+- Improve the variety of images to show a broader range of services to potential clients.
 - Create an extra page with a virtual tour of the clinic, given by some of the staff.
+- Use javascript to limit which days and times can be chosen in the calendat on the Bookings form.
+
+## Acknowledgements
+
+- Luke Buchanan: my mentor, for giving clear, constructive feedback during the entire process.
+- The Slack community, for the plethora of questions that have been previously asked and answered.
+- Tutor Assistance, for helping solve the problems that I just couldn't get my head around.
+- My partner Christina, for giving me the idea for the website.
