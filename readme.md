@@ -55,7 +55,7 @@ They provide a quality service and pride themselves in being industry leaders. T
 ### Website Objective
 
 To create a website advertising Collooney Physiotherapy to those searching the services of a physiotherapist in the surrounding area, thereby increasing the number of clients.
-The website should clearly show the services provided, as well as giving the user a positive experience whilst on the website. This would be achieved by an intuiative layout, positive images and a soft, comfortable colour palette.
+The website should clearly show the services provided, as well as giving the user a positive experience whilst on the website. This would be achieved by an intuitive layout, positive images and a soft, comfortable colour palette.
 
 ### Key Features
 
@@ -65,7 +65,7 @@ The website will include a *Home* page briefly covering what the clinic does and
 
 ## Potential Users
 
-The website would be of interest to anyone living in the area seeking treatment from a physhiothrapist, as well as family/friends thereof.
+The website would be of interest to anyone living in the area seeking treatment from a physhiotherapist, as well as family/friends thereof.
 
 ### User Goals
 
@@ -75,7 +75,7 @@ To either make an appointment/enquiry with the clinic, or at least learn more ab
 
 John, aged 34, lives in Ballisodare, Co. Sligo, just a few kilometres from Collooney. He has injured his shoulder playing football at the weekend, which was then exacerbated by his physical day job as a plasterer. He would like to get professional help, but thinks that a visit to his GP isn't the right approach.
 
-John searched online and found the website for Collooney Physiotherapy. He was initially impressed by the sleek, simple design, giving him a good first impression. He had a look at the clinic's social media pages and was impressed by the range of services that he saw patients receiving. He looked through some of the exercises they recommended he do at home, and figured he'd see if they helped.
+John searched online and found the website for Collooney Physiotherapy. He was initially impressed by the sleek, simple design, giving him a good first impression. He had a look at the clinic's social media pages and was impressed by the range of services that he saw patients receiving. He looked through some of the exercises they recommended that he could perform at home, and figured he'd see if they helped.
 
 2 days later, and John is already feeling better, but there was still a lot of pain and discomfort. He revisited the website and quickly navigated to the *Bookings* form, where he made an appointment for next Thursday at 11.30, remembering to explain his condition in the *Message* field. Around 15 minutes later, when the clinic had received and read his submission, they rang him on his mobile (which was his preferred method of contact), letting him know what they have booked him in for the appointment at 11.30 next Thursday. This also gave them a few minutes to chat about his condition, break the ice, and to make John feel welcome before he even arrived.
 
@@ -97,7 +97,7 @@ John has now been to the clinic 3/4 times and his physical condition has greatly
   
 #### Structure
 
-- 3 pages: *Home*, *Treatments* and *Bookings*. Users can easily and clearly navigate between these from a navbar (or dropdown menu on mobile devices).
+- 3 pages: *Home*, *Treatments* and *Bookings*. Users can easily and clearly navigate between these from a navbar (or drop-down menu on mobile devices).
   
 #### Skeleton
 
@@ -133,7 +133,7 @@ See [Wireframes](#wireframes) below.
 ![Mobile Bookings Wireframe](./documents/wireframes/mobile-bookings.webp)
 
 ### Colour Scheme
-The colour scheme changed after the deployment due to [accessibility issues](#issuesbugs). The intial colour scheme included light pastel tones to give the user a feeling of calmness and professionalism; a clean experience without being cold and unwelcoming.
+The colour scheme changed after the deployment due to [accessibility issues](#issuesbugs). The initial colour scheme included light pastel tones to give the user a feeling of calmness and professionalism; a clean experience without being cold and unwelcoming.
 
 ![First Colour Scheme](./documents/readme-images/colour-01.webp)
 
@@ -151,7 +151,7 @@ Although this wasn't the original plan, it still looks and feels clean, professi
 
 Icons with links to social media were done with colours contrasting to the background to make them stand out.
 Links to other pages on the website are underlined when you hover over with a mouse, and are in bold when that is the current page, to emphasise that it is the current location.
-Links (in text) to external websites are done in bold, and are underlined when you hover over them. I also avoided single word hyperlinks to make them more obvious (a result from [WAVE](#technology--resources) analysis), and thereby approve accessibility.
+Links (in text) to external websites are done in bold, and are underlined when you hover over them. I also avoided single word hyperlinks to make them more obvious and thereby approve accessibility.
 
 ### Pages \& Features
 **Home**
@@ -166,13 +166,15 @@ As originally planned, the *Home* page looks clean, professional, warm and welco
 
 ![Treatments 01](./documents/readme-images/features-05.webp)
 
-The user can see and read about the variety of services that the clinic offers. As well as this, links are provided to external sites with exercises clients can perform at home. The intention of this is not only to get them started so they can see/feel the results of physiotherapy exercises, but also so that they feel that the clinic has already begun to help them before they have even stepped foot inside.
+The user can see and read about the variety of services that the clinic offers. As well as this, links are provided to external sites with exercises clients can perform at home. The intention of this is not only to allow them to see/feel the results of physiotherapy exercises, but also so that they feel that the clinic has already begun to help them before they have even stepped foot inside.
+
+Here you can also see the functionality of the drop-down menu for mobile devices, clearly indicating your current location on the site.
 
 **Bookings**
 
 ![Bookings 01](./documents/readme-images/features-03.webp)
 
-The bookins form allows users (regulars and first-timers) to easily book an appointment. The clinic will be sent this informtaion and can then quickly get in touch with the user in the preferred method that they have selected.
+The bookins form allows users (regulars and first-timers) to easily book an appointment. The clinic will be sent this information and can then quickly get in touch with the user in the preferred method that they have selected.
 
 ---
 
@@ -186,7 +188,7 @@ The bookins form allows users (regulars and first-timers) to easily book an appo
 - [**Markdown Guide**](https://www.markdownguide.org/cheat-sheet/) was used to help create the readme.
 - [**Contrast Finder**](https://app.contrast-finder.org/) and [**Coolors**](https://coolors.co/) were used to help find a colour scheme with an acceptable contrast.
 - [**Favicon.io**](https://favicon.io/favicon-generator/) was used to create a custom favicon.
-- [**WAVE**](https://wave.webaim.org/) and [**PageSpeed Insights**](https://pagespeed.web.dev/) testing tools were used to locate minor issues and check both accessbility and performance. 
+- [**WAVE**](https://wave.webaim.org/) and [**PageSpeed Insights**](https://pagespeed.web.dev/) testing tools were used to locate minor issues and check both accessibility and performance. 
 - [**ChatGPT**](https://chat.openai.com/) was used to help fill in the blocks of text. Note: *no code was written/created using ChatGPT*.
 - [**Website Mockup Generator**](https://websitemockupgenerator.com/) to make the screen mockups seen at the top of the readme.
 
@@ -194,23 +196,23 @@ The bookins form allows users (regulars and first-timers) to easily book an appo
 
 ## Deployment
 
-Once the basic deisgn of the website was finished, I deployed it to GitHub Pages. [The history of all deployed version of the site can be found here](https://github.com/DiarmuidHenry/Project-01/deployments).
+Once the basic design of the website was finished, I deployed it to GitHub Pages. [The history of all deployed version of the site can be found here](https://github.com/DiarmuidHenry/Project-01/deployments).
 
 ### How to Deploy to GitHub Pages
 
 1. Log in to github.com.
-2. Selected *Project-01* in my list of repositories.
-3. Clicked Settings > Pages.
+2. Select *Project-01* in my list of repositories.
+3. Click Settings > Pages.
 4. Under *Source*, select *Deploy from a branch*.
 5. Under *Branch*, select *main* and */root*, then click *Save*.
 6. Wait a couple of minutes for the site to deploy, then navigate back to the repository.
-7. Click *Deployments*, which now should have appearde on the main repository page.
+7. Click *Deployments*, which now should have appeared on the main repository page.
 8. Under *Active Deployments*, click the link https://diarmuidhenry.github.io/Project-01/. (The deployed page will open in the current tab).
 
 ### How to Clone Repository
 
 1. Go to the [GitHub repository](https://github.com/DiarmuidHenry/Project-01/).
-2. Click the green *Code* dropwdwn button.
+2. Click the green *Code* drop-wdwn button.
 3. Click *HTTPS* and copy the URL.
 4. Open your IDE, and open a terminal.
 5. Type `git clone url`, replacing `url` with the URL copied in step 3.
@@ -233,29 +235,38 @@ Apart from the usual spelling mistakes/typos, forgotten brackets/line breaks, th
 
 The fix to this was simply to restrict the input pattern for the relevant fields to the correct type/format. Now, only inputs of the correct form are accepted.
 
-- The image under *Reabilitation* on the *Treatments* page was slightly blurry/pixelated on larger screens.
+- The image under *Rehabilitation* on the *Treatments* page was slightly blurry/pixelated on larger screens.
 
 ![Blurry image](./documents/readme-images/blurry-image.webp)
 
 This was fixed by replacing it with another picture that was sufficiently large.
 
-- The language inside the mapo embedded in the iframe on the *Home* page was in Danish. This was due to the fact that the language of the computer that I was using was Danish. 
+- The language inside the map embedded in the iframe on the *Home* page was in Danish. This was due to the fact that the language of the computer that I was using was Danish. 
 
 ![Map Issue Before](./documents/readme-images/map-issue-01.webp)
   
-After a quick Google search, I found out which letters in the `src` property of the iframe were respsonsible for language. I simply change `da` to `en` and it solved the issue.
+After a quick Google search, I found out which letters in the `src` property of the iframe were responsible for language. I simply changed `da` to `en` and it solved the issue.
 
 ![Map Issue After](./documents/readme-images/map-issue-02.webp)
 
-- When using [PageSpeed Insights](#technology--resources) to check the speed of each HTML page, I saw that two of the image files I had used were very large, causing the *Home* page ot load slowly.
+- When using [PageSpeed Insights](#technology--resources) to check the speed of each HTML page, I saw that two of the image files I had used were very large, causing the *Home* page to load slowly.
 
-I found a rree online tool to decrease the size of the image and replaced the original with the smaller one. This drastically decreased the loading time.
+I found a free online tool to decrease the size of the image and replaced the original with the smaller one. This drastically decreased the loading time.
 
 ### Unresolved
 
 - When using [PageSpeed Insights](#technology--resources) to check the speed of each HTML page on Mobile devices, there are several things that are causing delays, including those shown below:
-- 
-Since these have not been included in the HTML and/or CSS modules, I have no knowledge of how to improve or elmminate these issues. This can be addressed in the future.
+
+![Performance Issues 01](./documents/readme-images/performance-01.webp)
+
+![Performance Issues 02](./documents/readme-images/performance-02.webp)
+
+![Performance Issues 03](./documents/readme-images/performance-03.webp)
+
+![Performance Issues 04](./documents/readme-images/performance-04.webp)
+
+
+Since these have not been included in the HTML and/or CSS modules, I have no knowledge of how to improve or eliminate these issues. This can be addressed in the future.
 
 ---
 
@@ -267,11 +278,11 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 
 |Test Item|Test Carried Out|Result|Pass/Fail|
 |-------------|------------------|-----------|-------|
-|Hamburger icon|Clicked on icon|The dropdown menu appeared, showing *Home*, *Treatments* and *Bookings*|PASS|
+|Hamburger icon|Clicked on icon|The drop-down menu appeared, showing *Home*, *Treatments* and *Bookings*|PASS|
 |*Home* link in navbar|Click on *Home*|*Home* page loads|PASS|
 |*Treatments* link in navbar|Click on *Treatments*|*Treatments* page loads|PASS|
 |*Bookings* link in navbar|Click on *Bookings*|*Bookings* page loads|PASS|
-|Current page location appears in bold|Reveal dropdown menu whilst on *Home*, *Treatments* and *Bookings*|Current location is shown in bold|PASS|
+|Current page location appears in bold|Reveal drop-down menu whilst on *Home*, *Treatments* and *Bookings*|Current location is shown in bold|PASS|
 
 #### Header \& Navbar - Tablet \& Desktop
 
@@ -289,7 +300,6 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 |Facebook icon|Click on Facebook icon|Opens Facebook's homepage in a new tab|PASS|
 |Instagram icon|Click on Instagram icon|Opens Instagram's homepage in a new tab|PASS|
 |LinkedIn icon|Click on LinkedIn icon|Opens LinkedIn's homepage in a new tab|PASS|
-
 
 #### Home Page
 
@@ -312,7 +322,8 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 
 |Test Item|Test Carried Out|Result|Pass/Fail|
 |-------------|------------------|-----------|-------|
-|Booking form|Inputs of varying types (alphabetical; numerical; alphanumerical; blank;) were tried in all input forms.|Only valid inputs in the correct form were accepted|PASS|
+|Booking form fields|Inputs of varying types (alphabetical; numerical; alphanumerical; blank;) were tried in all input forms.|Only valid inputs in the correct form were accepted|PASS|
+|Submit button|Pressed submit both with invalid and valid inputs in the above fields|When invalid inputs were entered, the form would not submit, and a notifcation came up alerting the user to where there was an error. When all inputs were valid, form was submitted and the CodeInstitute dump form opened in a new tab, showing the correctly labelled information|PASS|
 
 ### PageSpeed Insights Tests
 
@@ -342,7 +353,7 @@ No errors were found in the `style.css` file.
 - Sort out the performance issues on [PageSpeed Insights](#technology--resources) to improve the loading time on mobile devices to get a score of 90+.
 - Improve the variety of images to show a broader range of services to potential clients.
 - Create an extra page with a virtual tour of the clinic, given by some of the staff.
-- Use javascript to limit which days and times can be chosen in the calendat on the Bookings form.
+- Use javascript to limit which days and times can be chosen in the calendar on the Bookings form.
 
 ## Acknowledgements
 
