@@ -160,7 +160,7 @@ Links (in text) to external websites are done in bold, and are underlined when y
 
 ![Homepage 02](./documents/readme-images/features-02.webp)
 
-As originally planned, the *Home* page looks clean, professional, warm and welcoming, with a good mix of high quality pictures and well formatted text. The header allows for easy navigation, and the contact information allows for the user to learn about the clinic's location, as well as to see it's social media pages.
+As originally planned, the *Home* page looks clean, professional, warm and welcoming, with a good mix of high quality pictures and well formatted text. The header allows for easy navigation, and the contact information allows for the user to learn about the clinic's location, as well as to see its social media pages.
 
 **Treatments**
 
@@ -179,18 +179,18 @@ Here you can also see the functionality of the drop-down menu for mobile devices
 The bookins form allows users (regulars and first-timers) to easily book an appointment. The clinic will be sent this information and can then quickly get in touch with the user in the preferred method that they have selected.
 
 ## Technology \& Resources
-- **IDE :** [CodeAnywhere](https://app.codeanywhere.com/)
+- **IDE :** [CodeAnywhere](https://app.codeanywhere.com/) and [Visual Studio Code](https://code.visualstudio.com/).
 - **Languages :** HTML and CSS, with Markdown being used for this readme.
 - **Template :** The [CodeInstitute template](https://github.com/Code-Institute-Org/ci-full-template) was used in order to install all the relevant tools for the code to function.
-- [**Github**](https://github.com/) was used to host the project. I used `git commit` regularly to create versions of the project at regular intervals. This meant that I could be more precise if I needed to `git reset`.
-- [**Balsamiq**](https://balsamiq.com/) was used to create wireframes for mobile, table and desktop.
-- [**Pexels**](https://www.pexels.com/) was used to find royalty-free images that I could safely use without worry of copyright infringement.
-- [**Markdown Guide**](https://www.markdownguide.org/cheat-sheet/) was used to help create the readme.
-- [**Contrast Finder**](https://app.contrast-finder.org/) and [**Coolors**](https://coolors.co/) were used to help find a colour scheme with an acceptable contrast.
-- [**Favicon.io**](https://favicon.io/favicon-generator/) was used to create a custom favicon.
-- [**WAVE**](https://wave.webaim.org/) and [**PageSpeed Insights**](https://pagespeed.web.dev/) testing tools were used to locate minor issues and check both accessibility and performance. 
-- [**ChatGPT**](https://chat.openai.com/) was used to help fill in the blocks of text. Note: *no code was written/created using ChatGPT*.
-- [**Website Mockup Generator**](https://websitemockupgenerator.com/) to make the screen mockups seen at the top of the readme.
+- [Github](https://github.com/) was used to host the project. I used `git commit` regularly to create versions of the project at regular intervals. This meant that I could be more precise if I needed to `git reset`.
+- [Balsamiq](https://balsamiq.com/) was used to create wireframes for mobile, table and desktop.
+- [Pexels](https://www.pexels.com/) was used to find royalty-free images that I could safely use without worry of copyright infringement.
+- [Markdown Guide](https://www.markdownguide.org/cheat-sheet/) was used to help create the readme.
+- [Contrast Finder](https://app.contrast-finder.org/) and [Coolors](https://coolors.co/) were used to help find a colour scheme with an acceptable contrast.
+- [Favicon.io](https://favicon.io/favicon-generator/) was used to create a custom favicon.
+- [WAVE](https://wave.webaim.org/) and [PageSpeed Insights](https://pagespeed.web.dev/) testing tools were used to locate minor issues and check both accessibility and performance. 
+- [ChatGPT](https://chat.openai.com/) was used to help fill in the blocks of text. Note: *ZERO code was written/created using ChatGPT*.
+- [Website Mockup Generator](https://websitemockupgenerator.com/) to make the screen mockups seen at the top of the readme.
 
 ## Deployment
 
