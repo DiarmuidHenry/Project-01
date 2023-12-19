@@ -39,16 +39,20 @@ They provide a quality service and pride themselves in being industry leaders. T
   - [Functional Testing of Website](#functional-testing-of-website)
     - [Header \& Navbar - Mobile](#header--navbar---mobile)
     - [Header \& Navbar - Tablet \& Desktop](#header--navbar---tablet--desktop)
-  - [Home Page](#home-page)
-  - [Treatments Page](#treatments-page)
-  - [Bookings Page](#bookings-page)
+    - [Footer](#footer)
+    - [Homepage](#home-page)
+    - [Bookings Page](#bookings-page)
+    - [Treatments Page](#treatments-page)
   - [PageSpeed Insights Tests](#pagespeed-insights-tests)
+    - [Homepage](#homepage-pagespeed)
+    - [Bookings Page](#bookings-pagespeed)
+    - [Treatments Page](#treatments-pagespeed)  
   - [HTML Code Validation](#html-code-validation)
-  - [CSS Code Validation](#css-code-validation)
+    - [Homepage](#homepage-validation)
+    - [Bookings](#bookings-validation)
+    - [Treatments](#treatments-validation)
+  - [CSS Code Validation](#css-validation)
 - [Future Improvements/Development](#future-improvementsdevelopment)
-
----
-
 
 ## Aim
 
@@ -61,8 +65,6 @@ The website should clearly show the services provided, as well as giving the use
 
 The website will include a *Home* page briefly covering what the clinic does and aims to achieve with their services. There will also be a page showing *Treatments* provided, as well as links to exercises people can do themselves at home. Finally, there will be a *Bookings* page, where potential clients can contact the clinic about making a booking by providing a date, time, their contact details, as well as any information relevant to their booking.
 
----
-
 ## Potential Users
 
 The website would be of interest to anyone living in the area seeking treatment from a physhiotherapist, as well as family/friends thereof.
@@ -71,7 +73,7 @@ The website would be of interest to anyone living in the area seeking treatment 
 
 To either make an appointment/enquiry with the clinic, or at least learn more about them so that they can then decide if they would like to go ahead and seek treatment.
 
-### User Testimonials
+### User Testimonial
 
 John, aged 34, lives in Ballisodare, Co. Sligo, just a few kilometres from Collooney. He has injured his shoulder playing football at the weekend, which was then exacerbated by his physical day job as a plasterer. He would like to get professional help, but thinks that a visit to his GP isn't the right approach.
 
@@ -80,8 +82,6 @@ John searched online and found the website for Collooney Physiotherapy. He was i
 2 days later, and John is already feeling better, but there was still a lot of pain and discomfort. He revisited the website and quickly navigated to the *Bookings* form, where he made an appointment for next Thursday at 11.30, remembering to explain his condition in the *Message* field. Around 15 minutes later, when the clinic had received and read his submission, they rang him on his mobile (which was his preferred method of contact), letting him know what they have booked him in for the appointment at 11.30 next Thursday. This also gave them a few minutes to chat about his condition, break the ice, and to make John feel welcome before he even arrived.
 
 John has now been to the clinic 3/4 times and his physical condition has greatly improved. He has also recommended Collooney Physiotherapy to some of his coworkers that are also suffering from muscular pain.
-
----
 
 ## Design \& Development
 
@@ -166,6 +166,8 @@ As originally planned, the *Home* page looks clean, professional, warm and welco
 
 ![Treatments 01](./documents/readme-images/features-05.webp)
 
+![Treatments 02](./documents/readme-images/features-06.webp)
+
 The user can see and read about the variety of services that the clinic offers. As well as this, links are provided to external sites with exercises clients can perform at home. The intention of this is not only to allow them to see/feel the results of physiotherapy exercises, but also so that they feel that the clinic has already begun to help them before they have even stepped foot inside.
 
 Here you can also see the functionality of the drop-down menu for mobile devices, clearly indicating your current location on the site.
@@ -175,8 +177,6 @@ Here you can also see the functionality of the drop-down menu for mobile devices
 ![Bookings 01](./documents/readme-images/features-03.webp)
 
 The bookins form allows users (regulars and first-timers) to easily book an appointment. The clinic will be sent this information and can then quickly get in touch with the user in the preferred method that they have selected.
-
----
 
 ## Technology \& Resources
 - **IDE :** [CodeAnywhere](https://app.codeanywhere.com/)
@@ -191,8 +191,6 @@ The bookins form allows users (regulars and first-timers) to easily book an appo
 - [**WAVE**](https://wave.webaim.org/) and [**PageSpeed Insights**](https://pagespeed.web.dev/) testing tools were used to locate minor issues and check both accessibility and performance. 
 - [**ChatGPT**](https://chat.openai.com/) was used to help fill in the blocks of text. Note: *no code was written/created using ChatGPT*.
 - [**Website Mockup Generator**](https://websitemockupgenerator.com/) to make the screen mockups seen at the top of the readme.
-
----
 
 ## Deployment
 
@@ -216,8 +214,6 @@ Once the basic design of the website was finished, I deployed it to GitHub Pages
 3. Click *HTTPS* and copy the URL.
 4. Open your IDE, and open a terminal.
 5. Type `git clone url`, replacing `url` with the URL copied in step 3.
-
----
 
 ## Issues/Bugs
 
@@ -265,10 +261,7 @@ I found a free online tool to decrease the size of the image and replaced the or
 
 ![Performance Issues 04](./documents/readme-images/performance-04.webp)
 
-
 Since these have not been included in the HTML and/or CSS modules, I have no knowledge of how to improve or eliminate these issues. This can be addressed in the future.
-
----
 
 ## Testing \& Validation
 
@@ -327,26 +320,55 @@ Since these have not been included in the HTML and/or CSS modules, I have no kno
 
 ### PageSpeed Insights Tests
 
-- [Home](https://pagespeed.web.dev/analysis/https-diarmuidhenry-github-io-Project-01-index-html/cdhe9rsi5e?form_factor=desktop)
+#### Homepage PageSpeed
+
+- [Homepage](https://pagespeed.web.dev/analysis/https-diarmuidhenry-github-io-Project-01-index-html/cdhe9rsi5e?form_factor=desktop)
+
+![Home PageSpeed Test](./documents/readme-images/pagespeed-index.webp)
+
+#### Treatments PageSpeed
+
 - [Treatments](https://pagespeed.web.dev/analysis/https-diarmuidhenry-github-io-Project-01-treatments-html/8ntp5kvtjo?form_factor=desktop)
+
+![Treatments PageSpeed Test](./documents/readme-images/pagespeed-treatments.webp)
+
+#### Bookings PageSpeed 
+
 - [Bookings](https://pagespeed.web.dev/analysis/https-diarmuidhenry-github-io-Project-01-bookings-html/nz7g9lg2ci?form_factor=desktop)
 
-All pages performed very well, scoring 100 for *Accessibility*, *Best Practices* and *SEO*. While each page scored 94+ for *Performance* on Desktop, some of the pages scored as low as 85 on Mobile. However, after trying out those pages on several mobile devices, I was happy that this did not result in any sort of delays or negative results in user experience.
+![Bookings PageSpeed Test](./documents/readme-images/pagespeed-bookings.webp)
+
+All pages performed very well, scoring 100 for *Accessibility*, *Best Practices* and *SEO*. While each page scored 93+ for *Performance* on Desktop, some of the pages scored as low as 85 on Mobile. However, after trying out those pages on several mobile devices, I was happy that this did not result in any sort of delays or negative results in user experience.
 
 ### HTML Code Validation
 
 No errors were found in any of the HTML files.
 
+#### Homepage Validation
+
 - [Home](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiarmuidhenry.github.io%2FProject-01%2Findex.html)
+
+![Home Validaton](./documents/readme-images/w3c-index.webp)
+
+#### Treatments Validation
+
 - [Treatments](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiarmuidhenry.github.io%2FProject-01%2Ftreatments.html)
+
+![Treatments Validaton](./documents/readme-images/w3c-treatments.webp)
+
+#### Bookings Validation
+
 - [Bookings](https://validator.w3.org/nu/?doc=https%3A%2F%2Fdiarmuidhenry.github.io%2FProject-01%2Fbookings.html)
 
-### CSS Code Validation
+![Bookings Validaton](./documents/readme-images/w3c-bookings.webp)
+
+### CSS Validation
 
 No errors were found in the `style.css` file.
 
 - [style.css](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdiarmuidhenry.github.io%2FProject-01%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
----
+
+![CSS Validaton](./documents/readme-images/w3c-css.webp)
 
 ## Future Improvements/Development
 
